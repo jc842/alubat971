@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Page non trouvée — 404" description="La page demandée n'existe pas ou a été déplacée.">
+  <main class="min-h-[60vh] flex flex-col items-center justify-center text-center px-4 py-16">
+    <span class="text-7xl font-black text-slate-300 mb-4 tracking-tighter">404</span>
+    <h1 class="text-3xl font-extrabold tracking-tight text-slate-900 mb-3">Page non trouvée</h1>
+    <p class="text-base text-slate-600 mb-8 max-w-md">
+      L'adresse demandée n'existe pas ou a été déplacée lors de la modernisation du site.
+    </p>
+    <a href="/" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-900 text-white font-semibold text-sm hover:bg-slate-800 transition-all shadow-md">
+      &larr; Retour à l'accueil
+    </a>
+  </main>
+</Layout>

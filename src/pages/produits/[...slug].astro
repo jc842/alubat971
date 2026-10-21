@@ -1,0 +1,164 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+import { siteConfig } from '../../config/site.config';
+
+export async function getStaticPaths() {
+  const produits = await getCollection('produits', ({ data }) => !data.lang || data.lang === 'fr');
+  return produits.map(prod => ({
+    params: { slug: prod.id },
+    props: { prod },
+  }));
+}
+
+const { prod } = Astro.props;
+const { Content } = await render(prod);
+
+// Produits similaires dans la même catégorie
+const allProduits = await getCollection('produits', ({ data }) => (!data.lang || data.lang === 'fr') && data.category === prod.data.category);
+const relatedProduits = allProduits.filter(p => p.id !== prod.id).slice(0, 3);
+---
+
+<Layout
+  title={`${prod.data.title} — Fiche Technique Menuiserie Aluminium`}
+  description={prod.data.description}
+  image={prod.data.heroImage}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+    <!-- Fil d'ariane -->
+    <nav class="flex items-center space-x-2 text-xs text-zinc-500 mb-8 overflow-hidden whitespace-nowrap">
+      <a href="/" class="hover:underline">Accueil</a>
+      <span>/</span>
+      <a href="/produits/" class="hover:underline">Gamme Produits</a>
+      <span>/</span>
+      <span class="text-zinc-900 font-semibold truncate">{prod.data.title}</span>
+    </nav>
+
+    <!-- Fiche Produit Principale -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mb-16">
+      <!-- Visuel Produit -->
+      <div class="lg:col-span-7">
+        <div class="rounded-2xl overflow-hidden border border-zinc-200/90 shadow-md bg-white">
+          {prod.data.heroImage ? (
+            <img
+              src={prod.data.heroImage}
+              alt={prod.data.title}
+              class="w-full h-auto max-h-[540px] object-cover"
+              loading="eager"
+            />
+          ) : (
+            <div class="w-full h-80 bg-zinc-100 flex items-center justify-center text-zinc-400">
+              <span class="text-sm uppercase font-bold tracking-widest">ALUBAT Guadeloupe</span>
+            </div>
+          )}
+        </div>
+
+        <!-- Badges Techniques -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-6">
+          <div class="bg-zinc-100/80 border border-zinc-200 p-4 rounded-xl text-center">
+            <span class="block text-[11px] uppercase tracking-wider text-zinc-500 font-semibold">Origine</span>
+            <span class="text-sm font-bold text-zinc-900">Fabriqué en Guadeloupe</span>
+          </div>
+          <div class="bg-zinc-100/80 border border-zinc-200 p-4 rounded-xl text-center">
+            <span class="block text-[11px] uppercase tracking-wider text-zinc-500 font-semibold">Résistance</span>
+            <span class="text-sm font-bold text-zinc-900">Norme Paracyclonique</span>
+          </div>
+          <div class="bg-zinc-100/80 border border-zinc-200 p-4 rounded-xl text-center col-span-2 sm:col-span-1">
+            <span class="block text-[11px] uppercase tracking-wider text-zinc-500 font-semibold">Garantie & Pose</span>
+            <span class="text-sm font-bold text-zinc-900">Équipes Qualifiées</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Informations & CTA Devis -->
+      <div class="lg:col-span-5 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center space-x-2 mb-3">
+            <span class="inline-block text-xs font-bold uppercase tracking-wider text-sky-800 bg-sky-100 border border-sky-300 px-3 py-0.5 rounded-md">
+              {prod.data.category}
+            </span>
+            {prod.data.brand && (
+              <span class="inline-block text-xs font-semibold text-zinc-600 bg-zinc-100 px-2.5 py-0.5 rounded-md border border-zinc-200">
+                Partenaire {prod.data.brand}
+              </span>
+            )}
+          </div>
+
+          <h1 class="text-2xl sm:text-4xl font-extrabold text-zinc-950 tracking-tight leading-tight mb-4">
+            {prod.data.title}
+          </h1>
+
+          <p class="text-sm sm:text-base text-zinc-600 leading-relaxed mb-6">
+            {prod.data.description}
+          </p>
+        </div>
+
+        <!-- Encadré Commercial Bastion -->
+        <div class="bg-zinc-900 text-white p-6 sm:p-8 rounded-2xl border border-zinc-800 shadow-lg mt-4">
+          <h3 class="text-lg font-bold text-white mb-2">
+            Demander un devis pour ce produit
+          </h3>
+          <p class="text-xs text-zinc-300 leading-relaxed mb-6">
+            Fabrication sur-mesure sous 3 000 m² d'ateliers à Jarry. Étude technique personnalisée et prise de côtes par nos métreurs.
+          </p>
+          <div class="space-y-3">
+            <a
+              href="/contact/"
+              class="w-full inline-flex items-center justify-center px-6 py-3.5 rounded-xl bg-sky-600 text-white font-bold hover:bg-sky-500 transition-colors shadow-md text-sm"
+            >
+              Demander un devis en ligne
+            </a>
+            <a
+              href="tel:0590266440"
+              class="w-full inline-flex items-center justify-center px-6 py-3 rounded-xl bg-zinc-800 text-zinc-200 border border-zinc-700 font-semibold hover:bg-zinc-700 transition-colors text-sm"
+            >
+              📞 0590 26 64 40 (Appel direct atelier)
+            </a>
+          </div>
+          <div class="mt-4 pt-4 border-t border-zinc-800 text-[11px] text-zinc-400 text-center">
+            Horaires d'accueil : Lundi au Vendredi, 8h – 16h
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Descriptif Technique Détaillé -->
+    <div class="bg-white p-6 sm:p-12 rounded-2xl border border-zinc-200/90 shadow-xs mb-16">
+      <h2 class="text-xl sm:text-2xl font-extrabold text-zinc-900 tracking-tight border-b pb-4 mb-6">
+        Caractéristiques & Performances
+      </h2>
+      <div class="prose prose-zinc max-w-none leading-relaxed">
+        <Content />
+      </div>
+    </div>
+
+    <!-- Produits Associés -->
+    {relatedProduits.length > 0 && (
+      <section class="border-t border-zinc-200 pt-12">
+        <h2 class="text-xl sm:text-2xl font-extrabold text-zinc-900 tracking-tight mb-8">
+          Dans la même gamme aluminium
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {relatedProduits.map((rel) => (
+            <a
+              href={`/produits/${rel.id}/`}
+              class="group bg-white rounded-xl border border-zinc-200 p-4 hover:border-zinc-300 hover:shadow-md transition-all flex flex-col"
+            >
+              <div class="h-40 bg-zinc-100 rounded-lg overflow-hidden mb-3">
+                {rel.data.heroImage && (
+                  <img src={rel.data.heroImage} alt={rel.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+                )}
+              </div>
+              <h3 class="text-sm font-bold text-zinc-900 group-hover:text-sky-600 transition-colors">
+                {rel.data.title}
+              </h3>
+              <p class="text-xs text-zinc-500 line-clamp-2 mt-1">
+                {rel.data.description}
+              </p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</Layout>

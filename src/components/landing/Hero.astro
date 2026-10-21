@@ -1,0 +1,92 @@
+---
+// Assets
+// IF you do not want a video
+// You can use an image instead
+//
+// Remove the video tag and uncomment the image tag below
+import { Image } from "astro:assets";
+import heroImage from "@/images/assets/heroImage.png";
+// Fundations
+import Text from "@/components/fundations/elements/Text.astro";
+import Kicker from "@/components/fundations/elements/Kicker.astro";
+import Wrapper from "@/components/fundations/containers/Wrapper.astro";
+const stats = [
+  { value: "50+", label: "Project complete" },
+  { value: "100+", label: "Expert teams" },
+  { value: "$3.5M", label: "Project value" },
+  { value: "$3.5M", label: "Project value" },
+];
+---
+
+<section class="relative min-h-[80dvh] flex flex-col">
+  <div class="absolute inset-0 z-0">
+    <video autoplay muted loop playsinline class="size-full object-cover">
+      <source src="/night.mp4" type="video/mp4" />
+    </video>
+    <!-- 
+    // IF you do not want a video
+    // You can use an image instead
+    //
+    // Remove the video tag and uncomment the image tag below
+    <Image
+      width={1290}
+      height={920}
+      src={heroImage}
+      alt="Modern architectural building"
+      decoding="async"
+      loading="lazy"
+      class="size-full object-cover"
+    /> 
+    -->
+    <div
+      aria-hidden="true"
+      class="absolute pointer-events-none inset-0 bg-accent-950/60"
+    >
+    </div>
+  </div>
+  <div class="relative z-10 flex-1 flex flex-col">
+    <Wrapper
+      variant="standard"
+      class="flex-1 flex flex-col justify-end py-12 lg:pb-12 pt-24 lg:border-x lg:border-white/10"
+    >
+      <div class="max-w-xl text-balance">
+        <Kicker class="text-white">Built for you</Kicker>
+        <Text
+          tag="h1"
+          variant="displayLG"
+          class="text-white font-medium tracking-tight mt-12"
+        >
+          Everyday building with purpose and precision
+        </Text>
+        <Text tag="p" variant="textLG" class="text-white max-w-xl mt-4">
+          We deliver high-quality construction through expert planning, skilled
+          craftsmanship, and dependable execution.
+        </Text>
+      </div>
+    </Wrapper>
+    <div class="relative z-10 border-t border-white/10">
+      <Wrapper variant="standard" class="py-8 lg:border-x lg:border-white/10">
+        <div
+          class="grid grid-cols-2 md:grid-cols-4 gap-y-4 gap-x-8 lg:max-w-3xl lg:ml-auto"
+        >
+          {
+            stats.map((stat) => (
+              <div>
+                <Text
+                  tag="p"
+                  variant="displayLG"
+                  class="text-white italic font-medium"
+                >
+                  {stat.value}
+                </Text>
+                <Text tag="p" variant="textSM" class="text-base-400 mt-1">
+                  {stat.label}
+                </Text>
+              </div>
+            ))
+          }
+        </div>
+      </Wrapper>
+    </div>
+  </div>
+</section>

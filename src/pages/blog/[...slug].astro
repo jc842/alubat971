@@ -1,0 +1,78 @@
+---
+import { catLabel } from '../../lib/categories';
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+import ReviveSlot from '../../components/ads/ReviveSlot.astro';
+import { siteConfig } from '../../config/site.config';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.lang || data.lang === 'fr');
+  return posts.map(post => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<Layout
+  title={post.data.title}
+  description={post.data.description}
+  image={post.data.heroImage}
+  article={true}
+  lang="fr"
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <nav class="flex items-center space-x-2 text-xs text-zinc-500 mb-6">
+      <a href="/" class="hover:underline">Accueil</a>
+      <span>/</span>
+      <a href="/blog/" class="hover:underline">Dossiers & Guides</a>
+      <span>/</span>
+      <span class="text-zinc-400 truncate">{post.data.title}</span>
+    </nav>
+
+    <article class="bg-white p-6 sm:p-10 rounded-2xl border border-zinc-200/80 shadow-sm">
+      <header class="mb-8">
+        <span class="inline-block text-xs font-bold uppercase tracking-wider text-zinc-900 bg-zinc-100 border border-zinc-300 px-3 py-1 rounded-md mb-3">
+          {catLabel(post.data.category)}
+        </span>
+        <h1 class="text-2xl sm:text-4xl font-extrabold text-zinc-900 tracking-tight leading-tight mb-4">
+          {post.data.title}
+        </h1>
+        <div class="text-xs text-zinc-500">
+          <span>Publié le {new Date(post.data.pubDate).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+        </div>
+      </header>
+
+      {post.data.heroImage && (
+        <div class="mb-8 rounded-xl overflow-hidden shadow-sm max-w-2xl mx-auto">
+          <img src={post.data.heroImage} alt={post.data.title} class="w-full h-auto object-cover max-h-[460px]" loading="eager" />
+        </div>
+      )}
+
+      <div class="prose prose-zinc max-w-none leading-relaxed">
+        <Content />
+      </div>
+
+      {siteConfig.revive?.zones?.inContent && (
+        <div class="my-10 py-6 border-y border-zinc-100 flex justify-center">
+          <ReviveSlot format={siteConfig.revive.zones.inContent.format} zoneId={siteConfig.revive.zones.inContent.zoneId} />
+        </div>
+      )}
+
+      {siteConfig.revive?.zones?.largeRectangle && (
+        <div class="my-10 flex justify-center">
+          <ReviveSlot format={siteConfig.revive.zones.largeRectangle.format} zoneId={siteConfig.revive.zones.largeRectangle.zoneId} />
+        </div>
+      )}
+
+      <footer class="mt-12 pt-6 border-t border-zinc-100 flex items-center justify-between text-xs">
+        <a href="/blog/" class="font-bold text-zinc-900 hover:underline uppercase tracking-wider">
+          &larr; Retour à tous les dossiers
+        </a>
+      </footer>
+    </article>
+  </div>
+</Layout>

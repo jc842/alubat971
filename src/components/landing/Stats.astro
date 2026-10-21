@@ -1,0 +1,65 @@
+---
+// Assets
+import Logo from "@/components/assets/Logo.astro";
+// Fundations
+import Text from "@/components/fundations/elements/Text.astro";
+import Kicker from "@/components/fundations/elements/Kicker.astro";
+import Wrapper from "@/components/fundations/containers/Wrapper.astro";
+const stats = [
+  { value: "99%", label: "Client satisfaction" },
+  { value: "500+", label: "Projects delivered" },
+  { value: "100+", label: "Industry professionals" },
+];
+---
+
+<section class="bg-accent-950 relative overflow-hidden">
+  <Wrapper
+    variant="standard"
+    class="py-24 lg:py-48 lg:border-x lg:border-white/10"
+  >
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+      <div>
+        <Logo class="h-12 text-white" />
+        <Kicker class="text-base-400 mt-8">
+          Trusted by clients who value quality, clarity, and long-term results</Kicker
+        >
+      </div>
+      <div class="lg:col-span-2 text-pretty">
+        <Text
+          tag="h2"
+          variant="displayLG"
+          class="text-white font-medium tracking-tight"
+        >
+          From private residences to large-scale commercial developments,
+          <span class="text-accent-400">
+            we partner closely with our clients to turn clear goals into
+            well-executed builds.
+          </span>
+        </Text>
+        <Text tag="p" variant="textLG" class="text-base-400 mt-4">
+          Our work is grounded in transparent communication, disciplined
+          planning, and consistent execution. Every project — regardless of size
+          — is delivered with the same attention to detail and accountability.
+        </Text>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-8 mt-12">
+          {
+            stats.map((stat) => (
+              <div>
+                <Text
+                  tag="p"
+                  variant="display2XL"
+                  class="text-white italic font-medium"
+                >
+                  {stat.value}
+                </Text>
+                <Text tag="p" variant="textLG" class="text-base-400  mt-1">
+                  {stat.label}
+                </Text>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </Wrapper>
+</section>

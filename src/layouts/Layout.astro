@@ -1,0 +1,225 @@
+---
+import { siteConfig } from '../config/site.config';
+import ReviveSlot from '../components/ads/ReviveSlot.astro';
+import MobileStickyAd from '../components/ads/MobileStickyAd.astro';
+import Matomo from '../components/analytics/Matomo.astro';
+
+export interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  article?: boolean;
+  lang?: 'fr';
+}
+
+const {
+  title = siteConfig.name,
+  description = siteConfig.description,
+  image = '/og-image.jpg',
+  article = false,
+  lang = 'fr',
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, siteConfig.url);
+
+// Thème Lexington Bastion Aluminium
+const theme = {
+  body: 'bg-[#fafafa] text-zinc-900 selection:bg-zinc-800 selection:text-white',
+  header: 'bg-white/95 border-zinc-200/90 backdrop-blur-md text-zinc-900',
+  accent: 'text-sky-600 hover:text-sky-700',
+  badge: 'bg-zinc-100 text-zinc-900 border border-zinc-300',
+  footer: 'bg-[#121316] text-zinc-300 border-zinc-800',
+};
+---
+
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title === siteConfig.name ? title : `${title} | ${siteConfig.siteName}`}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalURL} />
+
+  <!-- Hreflang Tags -->
+  <link rel="alternate" hreflang="fr" href={`${siteConfig.url}/`} />
+  <link rel="alternate" hreflang="x-default" href={`${siteConfig.url}/`} />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content={article ? 'article' : 'website'} />
+  <meta property="og:url" content={canonicalURL} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={new URL(image, siteConfig.url)} />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content={canonicalURL} />
+  <meta property="twitter:title" content={title} />
+  <meta property="twitter:description" content={description} />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <!-- Matomo Tag Manager (Privacy-First / Cookieless / Native Injection) -->
+  <Matomo />
+</head>
+
+<body class={`min-h-screen flex flex-col ${theme.body} pb-24 md:pb-0 font-sans`}>
+  <!-- En-tête / Header Bastion -->
+  <header class={`sticky top-0 z-40 backdrop-blur-md border-b shadow-xs ${theme.header}`}>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <!-- Logo ALUBAT -->
+        <a href="/" class="flex flex-col group">
+          <div class="flex items-center space-x-2">
+            <span class="font-sans text-2xl sm:text-3xl font-extrabold tracking-tight text-zinc-950 group-hover:text-sky-600 transition-colors">
+              ALUBAT
+            </span>
+            <span class="text-xs font-black uppercase tracking-widest text-sky-600 bg-sky-50 border border-sky-200 px-2 py-0.5 rounded-sm">
+              971
+            </span>
+          </div>
+          <span class="text-[10px] uppercase tracking-[0.2em] text-zinc-500 font-semibold mt-0.5">
+            Menuiserie Aluminium • Guadeloupe
+          </span>
+        </a>
+
+        <!-- Navigation Desktop -->
+        <nav class="hidden lg:flex items-center space-x-6 text-xs font-bold uppercase tracking-wider text-zinc-700">
+          <a href="/" class="hover:text-sky-600 transition-colors">Accueil</a>
+          <a href="/produits/" class="hover:text-sky-600 transition-colors">Gamme Produits</a>
+          <a href="/realisations/" class="hover:text-sky-600 transition-colors">Réalisations</a>
+          <a href="/blog/" class="hover:text-sky-600 transition-colors">Actualités</a>
+          <a href="/nos-valeurs/" class="hover:text-sky-600 transition-colors">Nos Valeurs</a>
+          <a href="/architectes/" class="hover:text-sky-600 transition-colors">Architectes</a>
+          <a href="/contact/" class="hover:text-sky-600 transition-colors">Contact</a>
+        </nav>
+
+        <!-- CTA Header -->
+        <div class="flex items-center space-x-3">
+          <a
+            href="tel:0590266440"
+            class="hidden sm:inline-flex items-center space-x-1.5 text-xs font-bold text-zinc-700 hover:text-zinc-950 bg-zinc-100 px-3 py-2 rounded-lg border border-zinc-200"
+          >
+            <span>📞</span>
+            <span>0590 26 64 40</span>
+          </a>
+          <a
+            href="/contact/"
+            class="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs uppercase tracking-wider transition-colors shadow-sm"
+          >
+            Devis Gratuit
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Bannière Header Publicitaire (si configurée) -->
+  {siteConfig.revive?.zones?.header && (
+    <div class="bg-zinc-100 py-2 border-b border-zinc-200 hidden md:flex justify-center">
+      <ReviveSlot zoneKey="header" />
+    </div>
+  )}
+
+  <!-- Contenu Principal -->
+  <main class="flex-1">
+    <slot />
+  </main>
+
+  <!-- Pied de page / Footer Bastion BTP -->
+  <footer class={`mt-auto border-t ${theme.footer} pt-16 pb-12`}>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        <!-- Colonne 1 : Entreprise -->
+        <div>
+          <div class="flex items-center space-x-2 mb-3">
+            <span class="text-2xl font-extrabold text-white tracking-tight">ALUBAT</span>
+            <span class="text-xs font-bold uppercase tracking-widest text-sky-400 bg-sky-950 px-2 py-0.5 rounded-sm border border-sky-800">
+              Guadeloupe
+            </span>
+          </div>
+          <p class="text-xs text-zinc-400 leading-relaxed mb-4">
+            Fabricant et installateur de menuiseries aluminium depuis plus de 25 ans. 3 000 m² d'ateliers de production à Jarry Baie-Mahault.
+          </p>
+          <div class="text-xs text-zinc-400 space-y-1">
+            <p>📍 Immeuble ABA2000, Bd de Houëlbourg Nord</p>
+            <p>97122 Baie-Mahault, Guadeloupe</p>
+            <p>🕒 Lundi au Vendredi : 8h00 – 16h00</p>
+          </div>
+        </div>
+
+        <!-- Colonne 2 : Gamme Aluminium -->
+        <div>
+          <h3 class="text-xs font-bold uppercase tracking-widest text-zinc-100 mb-4 border-b border-zinc-800 pb-2">
+            Gamme Aluminium
+          </h3>
+          <ul class="text-xs text-zinc-400 space-y-2.5">
+            <li><a href="/produits/" class="hover:text-white transition-colors">Baies Coulissantes & Galandages</a></li>
+            <li><a href="/produits/" class="hover:text-white transition-colors">Pergolas Bioclimatiques Biossun</a></li>
+            <li><a href="/produits/" class="hover:text-white transition-colors">Fenêtres & Châssis Paracycloniques</a></li>
+            <li><a href="/produits/" class="hover:text-white transition-colors">Portes d'Entrée & Blindées Volma</a></li>
+            <li><a href="/produits/" class="hover:text-white transition-colors">Volets Roulants & Jalousies</a></li>
+            <li><a href="/produits/" class="hover:text-white transition-colors">Portes Automatiques & SAS Vitrés</a></li>
+          </ul>
+        </div>
+
+        <!-- Colonne 3 : Navigation & Références -->
+        <div>
+          <h3 class="text-xs font-bold uppercase tracking-widest text-zinc-100 mb-4 border-b border-zinc-800 pb-2">
+            L'Entreprise
+          </h3>
+          <ul class="text-xs text-zinc-400 space-y-2.5">
+            <li><a href="/realisations/" class="hover:text-white transition-colors">Nos Chantiers & Références</a></li>
+            <li><a href="/nos-valeurs/" class="hover:text-white transition-colors">Nos Valeurs & Engagements</a></li>
+            <li><a href="/architectes/" class="hover:text-white transition-colors">Espace Architectes & Bureaux d'Études</a></li>
+            <li><a href="/blog/" class="hover:text-white transition-colors">Actualités & Conseils Techniques</a></li>
+            <li><a href="/contact/" class="hover:text-white transition-colors">Demande de Devis Gratuit</a></li>
+            <li><a href="/mentions-legales/" class="hover:text-white transition-colors">Mentions Légales</a></li>
+          </ul>
+        </div>
+
+        <!-- Colonne 4 : Partenaires Marques -->
+        <div>
+          <h3 class="text-xs font-bold uppercase tracking-widest text-zinc-100 mb-4 border-b border-zinc-800 pb-2">
+            Partenaires & Marques
+          </h3>
+          <p class="text-xs text-zinc-400 leading-relaxed mb-4">
+            Partenaire officiel des plus grandes signatures de la menuiserie internationale :
+          </p>
+          <div class="flex flex-wrap gap-2 text-[11px] font-bold text-zinc-300">
+            <span class="bg-zinc-800 px-2.5 py-1 rounded-sm border border-zinc-700">Schüco</span>
+            <span class="bg-zinc-800 px-2.5 py-1 rounded-sm border border-zinc-700">Biossun</span>
+            <span class="bg-zinc-800 px-2.5 py-1 rounded-sm border border-zinc-700">Volma</span>
+            <span class="bg-zinc-800 px-2.5 py-1 rounded-sm border border-zinc-700">Horizal</span>
+            <span class="bg-zinc-800 px-2.5 py-1 rounded-sm border border-zinc-700">Dessol</span>
+            <span class="bg-zinc-800 px-2.5 py-1 rounded-sm border border-zinc-700">Saint-Gobain</span>
+          </div>
+          <div class="mt-6">
+            <a
+              href="tel:0590266440"
+              class="inline-block text-xs font-bold text-sky-400 hover:text-sky-300"
+            >
+              📞 0590 26 64 40
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ligne de Copyright & Traçabilité -->
+      <div class="pt-8 border-t border-zinc-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-500 gap-4">
+        <div>
+          &copy; {new Date().getFullYear()} ALUBAT Guadeloupe — Tous droits réservés.
+        </div>
+        <div class="flex space-x-6">
+          <a href="/mentions-legales/" class="hover:text-zinc-300 transition-colors">Mentions Légales</a>
+          <a href="/politique-confidentialite/" class="hover:text-zinc-300 transition-colors">Politique de Confidentialité</a>
+          <a href="/contact/" class="hover:text-zinc-300 transition-colors">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky Mobile Ad (Auto-Collapse) -->
+  <MobileStickyAd />
+</body>
+</html>

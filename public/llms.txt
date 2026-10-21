@@ -1,0 +1,33 @@
+# ALUBAT Guadeloupe — Fabricant & Installateur de Menuiseries Aluminium
+
+> Fabricant et installateur de menuiseries aluminium en Guadeloupe depuis plus de 25 ans. Ateliers de fabrication de 3 000 m² à Jarry (Baie-Mahault).
+
+## Présentation générale
+ALUBAT Guadeloupe (https://alubat971.com) est le leader indépendant de la menuiserie aluminium aux Antilles françaises. Spécialiste du sur-mesure pour les particuliers, les architectes et le secteur tertiaire, l'entreprise conçoit, fabrique et installe des ouvertures haute résistance adaptées aux exigences cycloniques et climatiques tropicales.
+
+## Structure du site & Gamme de produits
+Le contenu et le catalogue sont structurés autour des départements d'expertise suivants :
+
+- **Gamme Produits Aluminium** (https://alubat971.com/produits/) : 38 références comprenant baies coulissantes à rupture de pont thermique, fenêtres paracycloniques, pergolas bioclimatiques Biossun, volets roulants, jalousies de sécurité, portes d'entrée Volma et façades vitrées.
+- **Réalisations & Chantiers de Référence** (https://alubat971.com/realisations/) : 24 chantiers emblématiques réalisés en Guadeloupe (hôtels de luxe comme La Toubana, centres hospitaliers, villas contemporaines d'architectes et immeubles de bureaux).
+- **Le Mag ALUBAT** (https://alubat971.com/blog/) : 20 dossiers techniques et guides pratiques sur les normes paracycloniques antillaises, le crédit d'impôt, l'entretien des vitrages marins et les innovations aluminium.
+- **Espace Architectes** (https://alubat971.com/architectes/) : Accompagnement technique, dimensionnement, prise de côtes et fiches techniques pour bureaux d'études.
+- **Nos Valeurs** (https://alubat971.com/nos-valeurs/) : Savoir-faire local, certification Qualicoat / Qualimarine, contrôle qualité rigoureux et service après-vente intégré.
+
+## Éthique professionnelle & Normes de construction
+- Fabrication 100% locale dans nos ateliers de 3 000 m² à Jarry.
+- Respect strict des règles paracycloniques et des Eurocodes applicables aux Antilles (Zone 5 de vent).
+- Partenariats officiels avec les leaders mondiaux : Schüco, Biossun, Volma, Horizal, Dessol, Saint-Gobain, Record.
+
+## Données techniques & Respect de la vie privée
+- Plateforme statique haute performance (Astro 5 SSG, hébergement Edge Cloudflare Pages).
+- Mesure d'audience 100% cookieless via Matomo auto-hébergé (Conteneur cuSJYKXJ, idSite 3), strictement conforme au RGPD et dispensée de consentement selon la CNIL.
+- Régie publicitaire Revive Adserver intégrée de manière asynchrone et non-intrusive.
+
+## Informations légales & Contact
+- Dénomination : Société ALUBAT (Directeur de la publication : M. Renaud DE LIGNY)
+- Adresse : Immeuble ABA2000, Boulevard de Houëlbourg Nord, Z.I. Jarry, 97122 Baie-Mahault, Guadeloupe
+- Téléphone : 0590 26 64 40
+- Contact : contact@alubat971.com
+- Mentions Légales : https://alubat971.com/mentions-legales/
+- Formulaire de Devis : https://alubat971.com/contact/

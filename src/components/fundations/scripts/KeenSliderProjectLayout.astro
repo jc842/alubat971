@@ -1,0 +1,48 @@
+<script type="module">
+  import KeenSlider from "https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/+esm";
+
+  // Initialize the project layout gallery slider
+  const sliderElement = document.querySelector("#project-gallery-slider");
+  const prevButton = document.querySelector(
+    "#project-slider-container-gallery .project-slider-prev"
+  );
+  const nextButton = document.querySelector(
+    "#project-slider-container-gallery .project-slider-next"
+  );
+
+  if (sliderElement) {
+    const keenSlider = new KeenSlider(
+      sliderElement,
+      {
+        loop: true,
+        slides: {
+          origin: "auto",
+          perView: 1.5,
+          spacing: 16,
+        },
+        breakpoints: {
+          "(min-width: 768px)": {
+            slides: {
+              origin: "auto",
+              perView: 1.8,
+              spacing: 24,
+            },
+          },
+          "(min-width: 1024px)": {
+            slides: {
+              origin: "auto",
+              perView: 1.8,
+              spacing: 32,
+            },
+          },
+        },
+      },
+      []
+    );
+
+    if (prevButton && nextButton) {
+      prevButton.addEventListener("click", () => keenSlider.prev());
+      nextButton.addEventListener("click", () => keenSlider.next());
+    }
+  }
+</script>

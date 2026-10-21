@@ -1,0 +1,36 @@
+{
+  "name": "alubat971",
+  "version": "1.0.0",
+  "description": "Site statique Astro 5 pour ALUBAT Guadeloupe (Lexington Bastion)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "fetch-site": "node scripts/fetch-from-mainwp.mjs",
+    "redirects": "node scripts/generate-redirects.mjs",
+    "sitemap": "node scripts/generate-sitemap.mjs",
+    "prebuild": "node scripts/generate-sitemap.mjs",
+    "predev": "node scripts/generate-sitemap.mjs",
+    "postbuild": "node scripts/sitemap-dist.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.129.0",
+    "@astrojs/react": "^4.4.2",
+    "@astrojs/tailwind": "^6.0.2",
+    "@keystatic/astro": "^6.0.0",
+    "@keystatic/core": "^0.6.9",
+    "@tailwindcss/typography": "^0.5.20",
+    "astro": "^5.18.2",
+    "axios": "^1.7.9",
+    "fs-extra": "^11.3.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^3.4.19"
+  },
+  "devDependencies": {
+    "wrangler": "^4.86.0"
+  }
+}

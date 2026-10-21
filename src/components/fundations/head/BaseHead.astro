@@ -1,0 +1,21 @@
+---
+import Seo from "@/components/fundations/head/Seo.astro";
+import Meta from "@/components/fundations/head/Meta.astro";
+import Fonts from "@/components/fundations/head/Fonts.astro";
+import Favicons from "@/components/fundations/head/Favicons.astro";
+import KeenSlider from "@/components/fundations/scripts/KeenSlider.astro";
+import type { SeoMeta } from "@/lib/seo";
+
+interface Props {
+  meta: SeoMeta;
+  twitterHandle?: string;
+}
+
+const { meta, twitterHandle } = Astro.props;
+---
+
+<Meta meta={meta} />
+<Seo meta={meta} twitterHandle={twitterHandle} />
+<Fonts />
+<Favicons />
+<KeenSlider />

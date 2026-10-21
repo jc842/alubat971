@@ -1,0 +1,58 @@
+---
+import { adsConfig, type AdSlotKey } from '../../config/ads.config';
+
+interface Props {
+  slot?: AdSlotKey;
+  format?: string;
+  zoneId?: number;
+  className?: string;
+  label?: string;
+  preventCls?: boolean;
+}
+
+const {
+  slot,
+  format,
+  zoneId: propZoneId,
+  className = '',
+  label = 'Partenaire',
+  preventCls = true,
+} = Astro.props;
+
+// Résolution de la zone d'après le slot ou le format
+let zone = slot ? adsConfig.zones[slot] : undefined;
+
+if (!zone && format) {
+  const match = Object.values(adsConfig.zones).find(z => z.format === format);
+  if (match) zone = match;
+}
+
+const activeZoneId = propZoneId ?? zone?.zoneId;
+const width = zone?.width ?? 300;
+const height = zone?.height ?? 250;
+const isEnabled = Boolean(activeZoneId && activeZoneId > 0);
+---
+
+{isEnabled && (
+  <div
+    class={`revive-slot-container revive-ad-${slot || format || 'custom'} mx-auto my-4 flex flex-col items-center justify-center overflow-hidden rounded border border-stone-200/60 bg-stone-50 p-2 text-center text-xs text-stone-600 ${className}`}
+    style={preventCls ? `min-height: ${height + 24}px; max-width: ${width + 16}px;` : undefined}
+  >
+    <span class="mb-1 block text-[10px] tracking-wider uppercase text-stone-400">
+      {label}
+    </span>
+    <div
+      class="flex items-center justify-center bg-stone-100 rounded"
+      style={`width: ${width}px; height: ${height}px; max-width: 100%;`}
+    >
+      <!-- Revive Adserver Async Tag - Domaine: ${adsConfig.domain} | Zone: ${activeZoneId} -->
+      <ins
+        data-revive-zoneid={activeZoneId}
+        data-revive-id={adsConfig.reviveId}
+        style={`display:inline-block;width:${width}px;height:${height}px;`}
+      ></ins>
+    </div>
+  </div>
+)}
+
+<script async src={adsConfig.scriptUrl}></script>

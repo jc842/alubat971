@@ -1,0 +1,37 @@
+---
+import { siteConfig } from '../../config/site.config';
+
+const matomo = (siteConfig as any).analytics?.matomo || (siteConfig as any).matomo;
+const isEnabled = matomo?.enabled !== false;
+const containerId = matomo?.containerId;
+const cleanContainerId = containerId ? containerId.replace('container_', '').replace('.js', '') : null;
+const scriptSrc = cleanContainerId ? `https://analytics.les4h.fr/js/container_${cleanContainerId}.js` : null;
+const siteId = matomo?.siteId;
+const rawUrl = (matomo?.url || 'https://analytics.les4h.fr').replace(/\/+$/, '');
+---
+
+{isEnabled && scriptSrc && (
+  <!-- Matomo Tag Manager (Privacy-First / Cookieless) -->
+  <script is:inline set:html={`var _mtm = window._mtm = window._mtm || [];
+_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+(function() {
+  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+  g.async=true; g.src='${scriptSrc}'; s.parentNode.insertBefore(g,s);
+})();`} />
+  <!-- End Matomo Tag Manager -->
+)}
+
+{isEnabled && !scriptSrc && siteId && (
+  <!-- Standard Matomo Fallback -->
+  <script is:inline set:html={`var _paq = window._paq = window._paq || [];
+_paq.push(['disableCookies']);
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+  var u = '${rawUrl}/';
+  _paq.push(['setTrackerUrl', u + 'matomo.php']);
+  _paq.push(['setSiteId', '${siteId}']);
+  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+  g.async=true; g.src=u + 'matomo.js'; s.parentNode.insertBefore(g,s);
+})();`} />
+)}

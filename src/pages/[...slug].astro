@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages', ({ data }) => !data.lang || data.lang === 'fr');
+  return pages.map(page => ({
+    params: { slug: page.id },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+const { Content } = await render(page);
+---
+
+<Layout title={page.data.title} description={page.data.description}>
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
+    <header class="mb-8 border-b pb-6">
+      <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-zinc-900">
+        {page.data.title}
+      </h1>
+      {page.data.description && (
+        <p class="text-base text-zinc-600 mt-2">{page.data.description}</p>
+      )}
+    </header>
+
+    {page.data.heroImage && (
+      <div class="mb-8 rounded-xl overflow-hidden shadow-sm max-w-md mx-auto">
+        <img src={page.data.heroImage} alt={page.data.title} class="w-full h-auto object-cover" />
+      </div>
+    )}
+
+    <div class="prose prose-zinc max-w-none">
+      <Content />
+    </div>
+  </article>
+</Layout>

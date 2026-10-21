@@ -1,0 +1,34 @@
+---
+import type { SeoMeta } from "@/lib/seo";
+
+interface Props {
+  meta: SeoMeta;
+  twitterHandle?: string;
+}
+
+const { meta, twitterHandle } = Astro.props;
+---
+
+{meta.description && <meta name="description" content={meta.description} />}
+
+<meta property="og:title" content={meta.ogTitle} />
+{meta.ogDescription && (
+  <meta property="og:description" content={meta.ogDescription} />
+)}
+{meta.ogImage && <meta property="og:image" content={meta.ogImage} />}
+{meta.canonical && <meta property="og:url" content={meta.canonical} />}
+<meta property="og:type" content="website" />
+
+<meta
+  name="twitter:card"
+  content={meta.ogImage ? "summary_large_image" : "summary"}
+/>
+{twitterHandle && <meta name="twitter:site" content={twitterHandle} />}
+{meta.ogTitle && <meta name="twitter:title" content={meta.ogTitle} />}
+{meta.ogDescription && (
+  <meta name="twitter:description" content={meta.ogDescription} />
+)}
+{meta.ogImage && <meta name="twitter:image" content={meta.ogImage} />}
+
+{meta.canonical && <link rel="canonical" href={meta.canonical} />}
+{meta.robots && <meta name="robots" content={meta.robots} />}

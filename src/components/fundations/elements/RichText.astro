@@ -1,0 +1,11 @@
+---
+import { PortableText } from "emdash/ui";
+
+interface Props {
+  content: unknown[] | null | undefined;
+}
+
+const { content } = Astro.props;
+---
+
+{content && content.length > 0 && <PortableText value={content} />}

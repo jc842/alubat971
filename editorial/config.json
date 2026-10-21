@@ -1,0 +1,148 @@
+{
+  "site": "123alu",
+  "domain": "123alu.com",
+  "lang": "fr",
+  "niche": "Menuiserie Aluminium & Fermetures Contemporaines. 200 articles sur la rénovation, menuiseries et fermetures. Fort historique éditorial à restructurer vers l'aluminium haute performance, la résistance cyclonique en milieu côtier et tropical, et les baies XXL.",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "minIntervalHours": 40,
+  "timeZone": "Europe/Paris",
+  "postUrlPrefix": "/blog/",
+  "categoryUrlPattern": null,
+  "categories": [
+    {
+      "id": "menuiserie-alu",
+      "label": "Menuiseries Aluminium",
+      "scope": "Menuiseries Aluminium",
+      "keywords": "alu aluminium menuiserie menuiseries fenetre fenetres porte portes portail portails cloture clotures veranda verandas pergola pergolas"
+    },
+    {
+      "id": "baies-coulissantes",
+      "label": "Baies Vitrées & Coulissantes",
+      "scope": "Baies Vitrées & Coulissantes",
+      "keywords": "baie baies coulissant coulissante coulissantes vitree vitrees galandage"
+    },
+    {
+      "id": "volets-persiennes",
+      "label": "Volets & Persiennes",
+      "scope": "Volets & Persiennes",
+      "keywords": "volet volets persienne persiennes store stores brise-soleil jalousie"
+    },
+    {
+      "id": "isolation-thermique",
+      "label": "Isolation & Performance Thermique",
+      "scope": "Isolation & Performance Thermique",
+      "keywords": "isolation thermique performance energetique chaleur rupteur vitrage acoustique"
+    },
+    {
+      "id": "devis-conseils",
+      "label": "Devis, Pose & Conseils",
+      "scope": "Devis, Pose & Conseils",
+      "keywords": "devis prix tarif cout conseil conseils pose renovation remplacement entretien aide aides installation choisir guide"
+    }
+  ],
+  "backlog": [
+    {
+      "titre": "Baie vitrée alu à galandage : gain d'espace, coût et pièges de pose à éviter",
+      "mot_cle": "baie vitree alu galandage",
+      "mots_cles_secondaires": [
+        "prix pose galandage alu",
+        "baie galandage 2 vantaux",
+        "isolation baie galandage"
+      ],
+      "category": "baies-coulissantes"
+    },
+    {
+      "titre": "Fenêtres alu à ouvrant caché vs ouvrant visible : que choisir en rénovation ?",
+      "mot_cle": "fenetre alu ouvrant cache",
+      "mots_cles_secondaires": [
+        "avantage ouvrant cache alu",
+        "clair de jour fenetre",
+        "menuiserie profil fin"
+      ],
+      "category": "menuiserie-alu"
+    },
+    {
+      "titre": "Triple vitrage sur menuiserie alu : rentabilité et confort d'été en 2026",
+      "mot_cle": "triple vitrage alu rentabilite",
+      "mots_cles_secondaires": [
+        "facteur solaire Sw",
+        "coefficient Uw fenetre alu",
+        "aides MaPrimeRenov alu"
+      ],
+      "category": "menuiserie-alu"
+    },
+    {
+      "titre": "Label Qualimarine vs Qualilaquage : pourquoi vos alus s'écaillent en bord de mer",
+      "mot_cle": "label qualimarine alu",
+      "mots_cles_secondaires": [
+        "corrosion filiforme aluminium",
+        "anodisation bord de mer",
+        "garantie laquage 25 ans"
+      ],
+      "category": "menuiserie-alu"
+    },
+    {
+      "titre": "Volets anti-cycloniques en aluminium : lames renforcées, normes AEV et verrouillage",
+      "mot_cle": "volet roulant cyclonique alu",
+      "mots_cles_secondaires": [
+        "volet anticyclonique guadeloupe martinique",
+        "lame extrudee alu",
+        "resilience ouragan"
+      ],
+      "category": "volets-persiennes"
+    },
+    {
+      "titre": "Jalousies aluminium tropicales : ventilation naturelle et étanchéité cyclonique",
+      "mot_cle": "jalousie alu antilles",
+      "mots_cles_secondaires": [
+        "fenetre persienne alu",
+        "jalousie orientable securisee",
+        "aeration naturelle maison tropicale"
+      ],
+      "category": "menuiserie-alu"
+    },
+    {
+      "titre": "Pergola bioclimatique en alu thermolaqué : résistance au vent et budget au m² en 2026",
+      "mot_cle": "pergola bioclimatique alu prix m2",
+      "mots_cles_secondaires": [
+        "pergola alu lames orientables",
+        "pergola autoportee alu",
+        "permis de construire pergola"
+      ],
+      "category": "menuiserie-alu"
+    },
+    {
+      "titre": "Portail alu coulissant de 5 mètres : motorisation, rail au sol ou autoportant ?",
+      "mot_cle": "portail coulissant alu 5m",
+      "mots_cles_secondaires": [
+        "moteur portail alu lourd",
+        "portail alu battant ou coulissant",
+        "cloture coordonnee alu"
+      ],
+      "category": "menuiserie-alu"
+    }
+  ],
+  "style": {
+    "voice": "technicien menuisier chevronné, précis et pédagogue, qui parle chiffres de performance, normes et retours de chantier",
+    "minWords": 1000,
+    "maxWords": 1700,
+    "formats": [
+      "guide pratique pas à pas",
+      "comparatif argumenté avec critères",
+      "analyse approfondie d'une question précise",
+      "checklist commentée",
+      "panorama des options avec avantages et limites"
+    ],
+    "faqProbability": 0.3,
+    "bannedPhrases": [
+      "Dans cet article",
+      "En conclusion",
+      "N'hésitez pas",
+      "Il est important de noter",
+      "Que vous soyez",
+      "plongeons",
+      "véritable joyau"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+# robots.txt généré pour conformité SEO et moteurs IA
+User-agent: *
+Allow: /
+
+# Moteurs de recherche majeurs
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Moteurs de réponse et agents IA
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Sitemap XML officiel (règle stricte slash final)
+Sitemap: https://alubat971.com/sitemap.xml

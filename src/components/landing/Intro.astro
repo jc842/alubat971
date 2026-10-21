@@ -1,0 +1,117 @@
+---
+// Assets
+import Logo from "@/components/assets/Logo.astro";
+// Fundations
+import Text from "@/components/fundations/elements/Text.astro";
+import Kicker from "@/components/fundations/elements/Kicker.astro";
+import Button from "@/components/fundations/elements/Button.astro";
+import Wrapper from "@/components/fundations/containers/Wrapper.astro";
+const contactDetails = [
+  {
+    label: "Address",
+    value: ["24 Industrial Way", "London, E16 2AB", "United Kingdom"],
+  },
+  {
+    label: "Phone",
+    value: ["+44 20 7946 0123"],
+    href: "tel:+442079460123",
+  },
+  {
+    label: "Email",
+    value: ["info@yourcompany.co.uk"],
+    href: "mailto:info@yourcompany.co.uk",
+  },
+  {
+    label: "Office hours",
+    value: ["Monday–Friday, 8:00–17:00"],
+  },
+];
+---
+
+<section class="bg-accent-950">
+  <Wrapper
+    variant="standard"
+    class="py-8 lg:py-0 lg:border-x lg:border-white/10"
+  >
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-y-8 gap-x-20">
+      <div class="bg-accent-600 p-8 lg:-mt-26 z-10 relative overflow-hidden">
+        <div class="relative flex flex-col justify-between h-full">
+          <Logo class="h-12 w-fit text-white" />
+          <div>
+            <Text
+              tag="h2"
+              variant="displayMD"
+              class="font-medium tracking-tight text-white mt-12"
+            >
+              Contact
+            </Text>
+            <div class="mt-8 space-y-6">
+              {
+                contactDetails.map((detail) => (
+                  <div>
+                    <Text
+                      tag="span"
+                      variant="textSM"
+                      class="uppercase text-base-100 font-medium block"
+                    >
+                      {detail.label}
+                    </Text>
+                    <Text tag="p" variant="textBase" class="mt-1  text-white">
+                      {detail.value.map((line, index) => (
+                        <>
+                          {detail.href ? (
+                            <a
+                              href={
+                                Array.isArray(detail.href)
+                                  ? detail.href[index] || detail.href[0]
+                                  : detail.href
+                              }
+                              class="hover:underline decoration-2 underline-offset-4"
+                            >
+                              {line}
+                            </a>
+                          ) : (
+                            line
+                          )}
+                          {index < detail.value.length - 1 ? <br /> : ""}
+                        </>
+                      ))}
+                    </Text>
+                  </div>
+                ))
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-2 py-12 lg:py-24 max-w-xl">
+        <Kicker class="text-accent-300">Get in touch</Kicker>
+        <Text
+          tag="h3"
+          variant="displayMD"
+          class="text-white font-medium tracking-tight mt-12"
+        >
+          Let’s discuss your project.
+        </Text>
+        <Text
+          tag="p"
+          variant="textBase"
+          class="text-base-300 mt-4 text-balance"
+        >
+          Whether you’re planning a new build, renovation, or commercial
+          project, we’re ready to review your requirements and provide clear,
+          practical next steps.
+        </Text>
+        <Button
+          isLink
+          size="base"
+          variant="muted"
+          href="/contact/"
+          class="w-fit mt-8"
+        >
+          Send us a message
+        </Button>
+      </div>
+    </div>
+  </Wrapper>
+</section>

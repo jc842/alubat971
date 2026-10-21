@@ -1,0 +1,173 @@
+{
+  "siteName": "123 Alu",
+  "domain": "123alu.com",
+  "niche": "Menuiserie Aluminium & Fermetures Contemporaines",
+  "theme": "Lexington Bastion Aluminium",
+  "resume_existant": "200 articles sur la rénovation, menuiseries et fermetures. Fort historique éditorial à restructurer vers l'aluminium haute performance, la résistance cyclonique en milieu côtier et tropical, et les baies XXL.",
+  "pages_a_pousser": [
+    {
+      "url": "/blog/guide-complet-baies-vitrees-aluminium-coulissantes-xxl/",
+      "titre": "Guide Ultime 2026 des Baies Vitrées Aluminium XXL : Prix, Isolation et Grandes Portées",
+      "objectif_seo": "Positionnement N°1 sur 'baie vitrée aluminium sur mesure' et 'prix baie vitrée alu'",
+      "priorite": "P1"
+    },
+    {
+      "url": "/blog/menuiserie-aluminium-cyclonique-bord-de-mer-antilles/",
+      "titre": "Menuiseries Aluminium Tropicales & Cycloniques : Normes CSTB, Résistance Marine et Vents Forts",
+      "objectif_seo": "Capter le trafic haute valeur propriétaires Antilles et littoral atlantique",
+      "priorite": "P1"
+    },
+    {
+      "url": "/blog/volets-roulants-portails-aluminium-sur-mesure-comparatif/",
+      "titre": "Portails et Volets Roulants Aluminium Sur Mesure : Comparatif 2026 Motorisation et Sécurité",
+      "objectif_seo": "Convertir sur les intentions d'achat et devis fermetures alu",
+      "priorite": "P2"
+    }
+  ],
+  "clusters": [
+    {
+      "nom": "Baies Vitrées & Fenêtres Alu Haute Performance",
+      "slug": "baies-fenetres-alu",
+      "page_pilier": "/blog/guide-complet-baies-vitrees-aluminium-coulissantes-xxl/",
+      "description": "Isolation thermique et acoustique, rupture de pont thermique, finitions thermo-laquées et designs minimalistes.",
+      "articles_a_publier": [
+        {
+          "titre": "Baie vitrée alu à galandage : gain d'espace, coût et pièges de pose à éviter",
+          "mot_cle": "baie vitree alu galandage",
+          "intention": "Informationnelle / Commerciale",
+          "type": "Guide Pratique",
+          "mots_cles_secondaires": [
+            "prix pose galandage alu",
+            "baie galandage 2 vantaux",
+            "isolation baie galandage"
+          ],
+          "maillage": {
+            "montant": "/blog/guide-complet-baies-vitrees-aluminium-coulissantes-xxl/",
+            "transverse": "fenetres-alu-oscillo-battant-renovation"
+          }
+        },
+        {
+          "titre": "Fenêtres alu à ouvrant caché vs ouvrant visible : que choisir en rénovation ?",
+          "mot_cle": "fenetre alu ouvrant cache",
+          "intention": "Comparative",
+          "type": "Comparatif Technique",
+          "mots_cles_secondaires": [
+            "avantage ouvrant cache alu",
+            "clair de jour fenetre",
+            "menuiserie profil fin"
+          ],
+          "maillage": {
+            "montant": "/blog/guide-complet-baies-vitrees-aluminium-coulissantes-xxl/",
+            "transverse": "baie-vitree-alu-galandage"
+          }
+        },
+        {
+          "titre": "Triple vitrage sur menuiserie alu : rentabilité et confort d'été en 2026",
+          "mot_cle": "triple vitrage alu rentabilite",
+          "intention": "Informationnelle",
+          "type": "Analyse Énergétique",
+          "mots_cles_secondaires": [
+            "facteur solaire Sw",
+            "coefficient Uw fenetre alu",
+            "aides MaPrimeRenov alu"
+          ],
+          "maillage": {
+            "montant": "/blog/guide-complet-baies-vitrees-aluminium-coulissantes-xxl/",
+            "transverse": "fenetre-alu-ouvrant-cache"
+          }
+        }
+      ]
+    },
+    {
+      "nom": "Menuiserie Cyclonique & Milieu Salin",
+      "slug": "cyclonique-milieu-marin",
+      "page_pilier": "/blog/menuiserie-aluminium-cyclonique-bord-de-mer-antilles/",
+      "description": "Résistance aux vents extrêmes (Ouragans classe 5), corrosion saline, thermolaquage Qualicoat et Qualimarine.",
+      "articles_a_publier": [
+        {
+          "titre": "Label Qualimarine vs Qualilaquage : pourquoi vos alus s'écaillent en bord de mer",
+          "mot_cle": "label qualimarine alu",
+          "intention": "Pédagogique / Expert",
+          "type": "Dossier Technique",
+          "mots_cles_secondaires": [
+            "corrosion filiforme aluminium",
+            "anodisation bord de mer",
+            "garantie laquage 25 ans"
+          ],
+          "maillage": {
+            "montant": "/blog/menuiserie-aluminium-cyclonique-bord-de-mer-antilles/",
+            "transverse": "volets-anti-cycloniques-alu-guide"
+          }
+        },
+        {
+          "titre": "Volets anti-cycloniques en aluminium : lames renforcées, normes AEV et verrouillage",
+          "mot_cle": "volet roulant cyclonique alu",
+          "intention": "Commerciale / Achat",
+          "type": "Guide d'Achat",
+          "mots_cles_secondaires": [
+            "volet anticyclonique guadeloupe martinique",
+            "lame extrudee alu",
+            "resilience ouragan"
+          ],
+          "maillage": {
+            "montant": "/blog/menuiserie-aluminium-cyclonique-bord-de-mer-antilles/",
+            "transverse": "jalousies-aluminium-tropicales"
+          }
+        },
+        {
+          "titre": "Jalousies aluminium tropicales : ventilation naturelle et étanchéité cyclonique",
+          "mot_cle": "jalousie alu antilles",
+          "intention": "Recherche de solution",
+          "type": "Guide Architectural",
+          "mots_cles_secondaires": [
+            "fenetre persienne alu",
+            "jalousie orientable securisee",
+            "aeration naturelle maison tropicale"
+          ],
+          "maillage": {
+            "montant": "/blog/menuiserie-aluminium-cyclonique-bord-de-mer-antilles/",
+            "transverse": "label-qualimarine-alu"
+          }
+        }
+      ]
+    },
+    {
+      "nom": "Portails, Clôtures & Pergolas Alu Bioclimatiques",
+      "slug": "outdoor-pergolas-fermetures",
+      "page_pilier": "/blog/volets-roulants-portails-aluminium-sur-mesure-comparatif/",
+      "description": "Aménagement extérieur en aluminium, pergolas bioclimatiques à lames orientables, carports et portails motorisés.",
+      "articles_a_publier": [
+        {
+          "titre": "Pergola bioclimatique en alu thermolaqué : résistance au vent et budget au m² en 2026",
+          "mot_cle": "pergola bioclimatique alu prix m2",
+          "intention": "Commerciale",
+          "type": "Baromètre Prix",
+          "mots_cles_secondaires": [
+            "pergola alu lames orientables",
+            "pergola autoportee alu",
+            "permis de construire pergola"
+          ],
+          "maillage": {
+            "montant": "/blog/volets-roulants-portails-aluminium-sur-mesure-comparatif/",
+            "transverse": "portail-alu-coulissant-motorise"
+          }
+        },
+        {
+          "titre": "Portail alu coulissant de 5 mètres : motorisation, rail au sol ou autoportant ?",
+          "mot_cle": "portail coulissant alu 5m",
+          "intention": "Guide d'Installation",
+          "type": "Comparatif",
+          "mots_cles_secondaires": [
+            "moteur portail alu lourd",
+            "portail alu battant ou coulissant",
+            "cloture coordonnee alu"
+          ],
+          "maillage": {
+            "montant": "/blog/volets-roulants-portails-aluminium-sur-mesure-comparatif/",
+            "transverse": "pergola-bioclimatique-alu-prix-m2"
+          }
+        }
+      ]
+    }
+  ]
+}

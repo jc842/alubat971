@@ -1,0 +1,11 @@
+---
+// Fundations
+import Text from "@/components/fundations/elements/Text.astro";
+const { class: className = "" } = Astro.props;
+const baseClasses = "uppercase";
+const combinedClasses = `${baseClasses} ${className}`.trim();
+---
+
+<Text tag="p" variant="textSM" class={combinedClasses}>
+  <slot />
+</Text>

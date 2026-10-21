@@ -1,0 +1,28 @@
+---
+import ReviveSlot from './ReviveSlot.astro';
+---
+
+<div
+  id="mobile-sticky-ad"
+  class="fixed bottom-0 left-0 right-0 z-50 flex flex-col items-center bg-stone-50/95 p-1 border-t border-stone-200 shadow-lg md:hidden"
+>
+  <button
+    id="close-ad"
+    type="button"
+    aria-label="Fermer la publicité"
+    class="self-end mr-2 text-stone-500 hover:text-stone-800 text-[10px] uppercase font-bold py-0.5 px-1.5"
+  >
+    ✕
+  </button>
+  <ReviveSlot
+    slot="mobileSticky"
+    className="my-0 border-0 p-0 bg-transparent shadow-none"
+  />
+</div>
+
+<script is:inline>
+  document.getElementById('close-ad')?.addEventListener('click', () => {
+    const ad = document.getElementById('mobile-sticky-ad');
+    if (ad) ad.style.display = 'none';
+  });
+</script>
