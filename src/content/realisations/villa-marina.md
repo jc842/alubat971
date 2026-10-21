@@ -16,10 +16,5 @@ draft: false
 Lieu: **Guadeloupe**
 
 ### Menuiseries associées
-	[
-
-	*				*
-
-](/produits/garde-corps-horizal/)
 
 - [**Garde-corps HORIZAL Verre**](/produits/garde-corps-horizal/)

@@ -9,7 +9,7 @@ lang: "fr"
 draft: false
 ---
 
-***Des produits de qualité, un cadre agréable, une forte notoriété…?***
+### Des produits de qualité, un cadre agréable, une forte notoriété…?
 
 est depuis plusieurs années l’enseigne alimentaire préférée des Français.?
 

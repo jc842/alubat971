@@ -16,10 +16,5 @@ draft: false
 Lieu: **Guadeloupe**
 
 ### Menuiseries associées
-	[
-
-	*				*
-
-](/produits/biossun/)
 
 - [**BIOSSUN**](/produits/biossun/)

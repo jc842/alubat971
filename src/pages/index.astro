@@ -2,6 +2,9 @@
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { siteConfig } from '../config/site.config';
+import PartnersGrid from '../components/sections/PartnersGrid.astro';
+import TestimonialsSection from '../components/sections/TestimonialsSection.astro';
+import GroupeSection from '../components/sections/GroupeSection.astro';
 
 // Récupérer les produits en vedette
 const allProduits = await getCollection('produits', ({ data }) => !data.lang || data.lang === 'fr');
@@ -20,7 +23,7 @@ const sortedPosts = allPosts
 
 <Layout
   title="ALUBAT Guadeloupe — Fabricant & Installateur de Menuiseries Aluminium à Jarry"
-  description="Fabricant et installateur de menuiseries aluminium en Guadeloupe depuis plus de 25 ans. 3 000 m² d'ateliers à Jarry : baies coulissantes, pergolas bioclimatiques, volets paracycloniques, portes d'entrée et façades vitrées."
+  description="Fabricant et installateur de menuiseries aluminium en Guadeloupe depuis plus de 40 ans. 3 000 m² d'ateliers à Jarry : baies coulissantes, pergolas bioclimatiques Biossun, volets paracycloniques, portes Volma et façades vitrées Schüco."
 >
   <!-- Hero Section Lexington Bastion -->
   <section class="relative bg-zinc-950 text-white min-h-[85vh] flex flex-col justify-center border-b border-zinc-800 overflow-hidden">
@@ -168,6 +171,9 @@ const sortedPosts = allPosts
     </div>
   </section>
 
+  <!-- Section Partenaires Référence & Labels Qualité -->
+  <PartnersGrid />
+
   <!-- Section 2 : Savoir-Faire & Ateliers de Jarry -->
   <section class="py-20 bg-zinc-950 text-white border-b border-zinc-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -301,6 +307,12 @@ const sortedPosts = allPosts
       </div>
     </div>
   </section>
+
+  <!-- Section Témoignages & Avis Architectes -->
+  <TestimonialsSection />
+
+  <!-- Section Notre Groupe C.P.G. (Caraïbes & Métropole) -->
+  <GroupeSection />
 
   <!-- Section 4 : Dernières Actualités & Conseils -->
   {sortedPosts.length > 0 && (

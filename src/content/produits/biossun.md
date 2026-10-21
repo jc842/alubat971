@@ -16,10 +16,10 @@ Concentré de technologie et de design, elles peuvent être combinées à l’in
 
 Descriptif BIOSSUN FUSION
 
-### [Descriptif Pergola FUSION](https://alubat971.com/download/descriptif-pergola-fusion/)
+### Descriptif Pergola FUSION
 
 Descriptif BIOSSUN 12
-### [Descriptif Pergola Biossun BIO 12](https://alubat971.com/download/descriptif-pergola-biossun-bio-12/)
+### Descriptif Pergola Biossun BIO 12
 
 Descriptif BIOSSUN BIO 18 – BIO 23
-### [Descriptif Pergola Biossun BIO 18 - BIO 23](https://alubat971.com/download/descriptif-pergola-biossun-bio-18-bio-23/)
+### Descriptif Pergola Biossun BIO 18 - BIO 23

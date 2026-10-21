@@ -16,26 +16,9 @@ draft: false
 Lieu: **Guadeloupe**
 
 ### Menuiseries associées
-	[
-
-	*				*
-
-](/produits/porte-ads-50/)
 
 - [**Porte Aluminium ADS 50 SCHUCO**](/produits/porte-ads-50/)
 
-	[
-
-	*				*
-
-](/produits/garde-corps-horizal-barreaudage/)
-
 - [**Garde-corps HORIZAL Barreaudage**](/produits/garde-corps-horizal-barreaudage/)
-
-	[
-
-	*				*
-
-](/produits/jalousies-royal-s60/)
 
 - [**Jalousies Royal S60**](/produits/jalousies-royal-s60/)

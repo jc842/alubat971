@@ -1,0 +1,63 @@
+---
+// src/pages/partenaires.astro
+import Layout from '../layouts/Layout.astro';
+import PartnersGrid from '../components/sections/PartnersGrid.astro';
+
+const title = "Nos Partenaires Industriels & Marques Référence | ALUBAT Guadeloupe";
+const description = "Découvrez les fabricants et marques de renommée mondiale partenaires d'ALUBAT Guadeloupe : Schüco, Biossun, Horizal, Volma, Stores Dessol et Saint-Gobain.";
+---
+
+<Layout title={title} description={description}>
+  <main class="py-12 sm:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
+      <div class="border-b border-zinc-200 pb-8">
+        <span class="text-xs font-bold uppercase tracking-widest text-sky-600 bg-sky-50 border border-sky-200 px-3 py-1 rounded-sm">
+          Partenariats de Confiance
+        </span>
+        <h1 class="text-3xl sm:text-5xl font-black text-zinc-950 tracking-tight mt-4">
+          Nos Partenaires Industriels de Référence
+        </h1>
+        <p class="mt-4 text-base sm:text-lg text-zinc-600 max-w-3xl leading-relaxed">
+          Depuis plus de 40 ans, <strong>ALUBAT Guadeloupe</strong> sélectionne avec une exigence absolue les meilleurs fabricants européens de profilés, moteurs, vitrages et accessoires de menuiserie pour concevoir des ouvrages durables et adaptés aux spécificités du climat tropical.
+        </p>
+      </div>
+    </div>
+
+    <!-- Composant Grille Partenaires & Qualimarine -->
+    <PartnersGrid />
+
+    <!-- Section Engagements Qualité & Normes -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 sm:mt-24">
+      <div class="bg-zinc-100/80 rounded-2xl p-8 sm:p-12 border border-zinc-200">
+        <div class="max-w-3xl">
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-zinc-900 tracking-tight">
+            Pourquoi Choisir un Partenaire Référencé Schüco en Guadeloupe ?
+          </h2>
+          <p class="mt-4 text-zinc-700 leading-relaxed text-sm sm:text-base">
+            En tant que partenaire référence <strong>Schüco</strong> aux Antilles, ALUBAT dispose d'un accès direct à l'ensemble des systèmes de profilés aluminium à rupture de pont thermique, aux procès-verbaux d'essais cycloniques (normes NF et CSTB) et à l'assistance technique des bureaux d'études de la marque.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a
+              href="/schueco/"
+              class="inline-flex items-center text-xs font-bold uppercase tracking-wider bg-sky-600 hover:bg-sky-500 text-white px-5 py-3 rounded-xl transition-colors"
+            >
+              Découvrir la Gamme Schüco
+            </a>
+            <a
+              href="/biossun/"
+              class="inline-flex items-center text-xs font-bold uppercase tracking-wider bg-white hover:bg-zinc-50 text-zinc-900 border border-zinc-300 px-5 py-3 rounded-xl transition-colors"
+            >
+              Pergolas Biossun
+            </a>
+            <a
+              href="/contact/"
+              class="inline-flex items-center text-xs font-bold uppercase tracking-wider bg-transparent hover:underline text-sky-600 px-3 py-3"
+            >
+              Contacter nos conseillers techniques →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</Layout>

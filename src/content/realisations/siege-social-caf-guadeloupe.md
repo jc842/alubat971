@@ -16,26 +16,9 @@ draft: false
 Lieu: **Guadeloupe**
 
 ### Menuiseries associées
-	[
-
-	*				*
-
-](/produits/fw-50/)
 
 - [**Façade FW 50+**](/produits/fw-50/)
 
-	[
-
-	*				*
-
-](/produits/portes-automatiques/)
-
 - [**Portes Automatiques SAGA 20**](/produits/portes-automatiques/)
-
-	[
-
-	*				*
-
-](/produits/jalousies-royal-s60/)
 
 - [**Jalousies Royal S60**](/produits/jalousies-royal-s60/)

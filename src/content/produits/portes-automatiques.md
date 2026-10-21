@@ -15,11 +15,11 @@ La porte automatique SAGA 20 répond à toutes les principales normes et directi
 ### EN SAVOIR +
 
 **Supports:**
-### [Descriptif Porte Automatique Saga20](https://alubat971.com/download/descriptif-porte-automatique-saga20/)
+### Descriptif Porte Automatique Saga20
 
 ### FICHE TECHNIQUE
 
-– **Verrouillage** **standard** ou **multipoints**
+– **Verrouillage standard** ou **multipoints**
 
 – Système profilés de **22** mm à **46 mm** (verre isolant jusqu'à **33 mm**)
 

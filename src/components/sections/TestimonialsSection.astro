@@ -1,0 +1,108 @@
+---
+// src/components/sections/TestimonialsSection.astro
+// Section Témoignages & Recommandations des Architectes et Maîtres d'Œuvre de Guadeloupe
+
+const testimonials = [
+  {
+    author: 'Guy Benoist',
+    agency: 'Benoist Architecte',
+    role: 'Architecte DPLG',
+    quote: 'La société ALUBAT assure son activité dans les règles de l’art et dans le meilleur esprit professionnel, comme j’ai pu le vérifier sur mes projets de référence en Guadeloupe.',
+    projects: ['Hôtel La Toubana (Sainte-Anne)', 'La Créole Beach Hôtel & Spa (Gosier)', 'KFC (Abymes & Gosier)'],
+    rating: 5,
+  },
+  {
+    author: 'Céline Degoulet',
+    agency: 'Couleurs d\'Architecture',
+    role: 'Architecte Maître d\'Œuvre',
+    quote: 'Tous les travaux effectués par ALUBAT nous ont donné entière satisfaction aussi bien en fabrication en atelier qu’en pose sur chantier, avec une rigueur technique constante.',
+    projects: ['Logements résidentiels & sociaux', 'Villas de standing', 'Bureaux & Gendarmerie'],
+    rating: 5,
+  },
+  {
+    author: 'Gérard Barbotteau',
+    agency: 'GB Architecture',
+    role: 'Architecte & Urbaniste',
+    quote: 'La société ALUBAT a exécuté sous ma direction de nombreux chantiers de menuiserie aluminium sur des programmes immobiliers d’envergure. Une entreprise hautement recommandable.',
+    projects: ['Bureaux Dothemarre (Jarry)', 'Programmes Tertiaires', 'Résidences Collectives'],
+    rating: 5,
+  },
+  {
+    author: 'Véronique Hirth',
+    agency: 'SELARL d\'Architecture AD',
+    role: 'Architecte Associée',
+    quote: 'ALUBAT/ALUPOSE fait preuve d\'un grand savoir-faire pour s\'adapter aux contraintes paracycloniques et architecturales spécifiques du climat caribéen.',
+    projects: ['Logements sociaux de qualité', 'Villas d\'architecte contemporaines'],
+    rating: 5,
+  },
+];
+---
+
+<section class="py-16 sm:py-24 bg-[#fafafa] border-b border-zinc-200 relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 sm:mb-16 gap-6">
+      <div class="max-w-2xl">
+        <div class="inline-flex items-center space-x-2 bg-zinc-100 border border-zinc-300 px-3 py-1 rounded-full text-xs font-bold text-zinc-800 uppercase tracking-widest mb-3">
+          <span>Recommandations Professionnelles</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-black text-zinc-900 tracking-tight">
+          Ce que disent les Architectes de Guadeloupe
+        </h2>
+        <p class="mt-4 text-base sm:text-lg text-zinc-600">
+          Les professionnels les plus exigeants de la construction antillaise font confiance aux ateliers ALUBAT pour la concrétisation de leurs réalisations majeures.
+        </p>
+      </div>
+      <a
+        href="/architectes/"
+        class="inline-flex items-center space-x-2 text-xs font-bold uppercase tracking-wider text-sky-600 hover:text-sky-700 bg-sky-50 border border-sky-200 px-4 py-2.5 rounded-lg shrink-0 transition-colors"
+      >
+        <span>Espace Architectes & Prescripteurs</span>
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Grille des Témoignages -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+      {testimonials.map(item => (
+        <div class="bg-white rounded-2xl p-6 sm:p-8 border border-zinc-200/90 shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <!-- Étoiles & Citation -->
+            <div class="flex items-center space-x-1 mb-4 text-amber-400">
+              {Array.from({ length: item.rating }).map(() => (
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+              ))}
+            </div>
+
+            <blockquote class="text-zinc-800 text-base sm:text-lg italic font-serif leading-relaxed mb-6">
+              « {item.quote} »
+            </blockquote>
+          </div>
+
+          <div class="pt-5 border-t border-zinc-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <div class="font-extrabold text-zinc-900 text-base">{item.author}</div>
+              <div class="text-xs font-bold uppercase tracking-wider text-sky-600 mt-0.5">
+                {item.agency} <span class="text-zinc-400 font-normal">• {item.role}</span>
+              </div>
+            </div>
+
+            <div class="text-right">
+              <span class="text-[10px] uppercase font-bold text-zinc-400 block tracking-wider">Chantiers Conjoints :</span>
+              <div class="flex flex-wrap gap-1 justify-start sm:justify-end mt-1">
+                {item.projects.map(proj => (
+                  <span class="text-[11px] font-medium bg-zinc-100 text-zinc-700 px-2 py-0.5 rounded-sm">
+                    {proj}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

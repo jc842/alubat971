@@ -32,6 +32,7 @@ async function generateSitemap() {
   const urls = [
     { loc: `${SITE_URL}/`, priority: '1.0', changefreq: 'daily' },
     { loc: `${SITE_URL}/produits/`, priority: '0.9', changefreq: 'weekly' },
+    { loc: `${SITE_URL}/partenaires/`, priority: '0.85', changefreq: 'monthly' },
     { loc: `${SITE_URL}/realisations/`, priority: '0.9', changefreq: 'weekly' },
     { loc: `${SITE_URL}/blog/`, priority: '0.8', changefreq: 'daily' },
     { loc: `${SITE_URL}/contact/`, priority: '0.8', changefreq: 'monthly' },

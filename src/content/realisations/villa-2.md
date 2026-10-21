@@ -16,18 +16,7 @@ draft: false
 Lieu: **Guadeloupe**
 
 ### Menuiseries associées
-	[
-
-	*				*
-
-](/produits/coulissant-ass-50-baie-panoramique/)
 
 - [**Baie Panoramique ASS 50**](/produits/coulissant-ass-50-baie-panoramique/)
-
-	[
-
-	*				*
-
-](/produits/coulissant-ass-28-sc/)
 
 - [**Coulissant ASS 28 SC**](/produits/coulissant-ass-28-sc/)

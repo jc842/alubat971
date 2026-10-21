@@ -1,6 +1,7 @@
 # Redirections structurelles WordPress -> Astro 5 Bastion
 /nos-realisations /realisations/ 301
 /nos-realisations/ /realisations/ 301
+/partenaires /partenaires/ 301
 /portfolio /realisations/ 301
 /portfolio/ /realisations/ 301
 /nos-produits /produits/ 301

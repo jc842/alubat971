@@ -21,10 +21,4 @@ Architecte: **GB Architecture**
 
 - [**Façade FW 50+**](/produits/fw-50/)
 
-	[
-
-	*				*
-
-](/produits/brise-soleil-alb/)
-
 - [**Brise Soleil ALB**](/produits/brise-soleil-alb/)

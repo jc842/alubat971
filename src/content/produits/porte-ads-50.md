@@ -16,8 +16,7 @@ La gamme de porte ADS 50 NI est parfaitement adaptée aux halls d’immeubles, m
 
 **Supports:
 
-**
-### [Descriptif ADS 50](https://alubat971.com/download/descriptif-ads-50/)
+### Descriptif ADS 50
 
 ### FICHE TECHNIQUE
 
@@ -30,5 +29,5 @@ La gamme de porte ADS 50 NI est parfaitement adaptée aux halls d’immeubles, m
 – Classes de sécurité jusqu'à WK 2 (RC2) selon les ferrures et vitrages
 
 **Supports:**
-### [Fiche Technique ADS50](https://alubat971.com/download/fiche-technique-ads50/)
-### [Fiche Coupe de principe ADS 50](https://alubat971.com/download/fiche-coupe-de-principe-ads-50/)
+### Fiche Technique ADS50
+### Fiche Coupe de principe ADS 50

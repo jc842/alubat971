@@ -16,18 +16,7 @@ draft: false
 Lieu: **Saint François**, **Guadeloupe**
 
 ### Menuiseries associées
-	[
-
-	*				*
-
-](/produits/fenetres-aws-50-ni/)
 
 - [**Fenêtres AWS 50 NI**](/produits/fenetres-aws-50-ni/)
-
-	[
-
-	*				*
-
-](/produits/garde-corps-horizal/)
 
 - [**Garde-corps HORIZAL Verre**](/produits/garde-corps-horizal/)

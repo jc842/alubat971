@@ -14,7 +14,7 @@ Disponible en versions battante et coulissante (motorisée ou manuelle), à barr
 
 ### EN SAVOIR +
 
-### [Descriptif Portail Sweet Home](https://alubat971.com/download/descriptif-portail-sweet-home/)
+### Descriptif Portail Sweet Home
 
 ### FICHE TECHNIQUE
 

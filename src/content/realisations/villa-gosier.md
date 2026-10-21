@@ -16,34 +16,11 @@ draft: false
 Lieu: **Guadeloupe**
 
 ### Menuiseries associées
-	[
-
-	*				*
-
-](/produits/porte-ads-50/)
 
 - [**Porte Aluminium ADS 50 SCHUCO**](/produits/porte-ads-50/)
 
-	[
-
-	*				*
-
-](/produits/garde-corps-horizal/)
-
 - [**Garde-corps HORIZAL Verre**](/produits/garde-corps-horizal/)
 
-	[
-
-	*				*
-
-](/produits/volet-coulissant/)
-
 - [**Volet Coulissant**](/produits/volet-coulissant/)
-
-	[
-
-	*				*
-
-](/produits/gamme-akor/)
 
 - [**Portails HORIZAL – Gamme Akor**](/produits/gamme-akor/)

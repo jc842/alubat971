@@ -16,18 +16,7 @@ draft: false
 Lieu: **Guadeloupe**
 
 ### Menuiseries associées
-	[
-
-	*				*
-
-](/produits/fw-50/)
 
 - [**Façade FW 50+**](/produits/fw-50/)
-
-	[
-
-	*				*
-
-](/produits/portes-automatiques-saga-21/)
 
 - [**Portes Automatiques SAGA 21**](/produits/portes-automatiques-saga-21/)

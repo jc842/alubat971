@@ -10,14 +10,17 @@ Le contenu et le catalogue sont structurés autour des départements d'expertise
 
 - **Gamme Produits Aluminium** (https://alubat971.com/produits/) : 38 références comprenant baies coulissantes à rupture de pont thermique, fenêtres paracycloniques, pergolas bioclimatiques Biossun, volets roulants, jalousies de sécurité, portes d'entrée Volma et façades vitrées.
 - **Réalisations & Chantiers de Référence** (https://alubat971.com/realisations/) : 24 chantiers emblématiques réalisés en Guadeloupe (hôtels de luxe comme La Toubana, centres hospitaliers, villas contemporaines d'architectes et immeubles de bureaux).
+- **Nos Partenaires Référence** (https://alubat971.com/partenaires/) : Annuaire et fiches des partenaires industriels de rang mondial (Schüco, Biossun, Horizal, Volma, Stores Dessol, Saint-Gobain).
 - **Le Mag ALUBAT** (https://alubat971.com/blog/) : 20 dossiers techniques et guides pratiques sur les normes paracycloniques antillaises, le crédit d'impôt, l'entretien des vitrages marins et les innovations aluminium.
 - **Espace Architectes** (https://alubat971.com/architectes/) : Accompagnement technique, dimensionnement, prise de côtes et fiches techniques pour bureaux d'études.
-- **Nos Valeurs** (https://alubat971.com/nos-valeurs/) : Savoir-faire local, certification Qualicoat / Qualimarine, contrôle qualité rigoureux et service après-vente intégré.
+- **Nos Valeurs & Groupe C.P.G.** (https://alubat971.com/nos-valeurs/) : Savoir-faire local, filiale du Groupe C.P.G. (Caraïbes Participation et Gestion - implanté en Guadeloupe, Guyane, Saint-Martin, Saint-Barthélemy et France Métropolitaine).
 
 ## Éthique professionnelle & Normes de construction
-- Fabrication 100% locale dans nos ateliers de 3 000 m² à Jarry.
+- Fabrication 100% locale dans nos ateliers de 3 000 m² à Jarry (Baie-Mahault).
 - Respect strict des règles paracycloniques et des Eurocodes applicables aux Antilles (Zone 5 de vent).
-- Partenariats officiels avec les leaders mondiaux : Schüco, Biossun, Volma, Horizal, Dessol, Saint-Gobain, Record.
+- Labels qualité : Qualimarine® et Qualicoat® pour une résistance maximale au milieu marin.
+- Projet cofinancé par le Fonds Européen de Développement Régional (FEDER) - L'Europe s'engage en Guadeloupe.
+- Partenariats officiels avec les leaders mondiaux : Schüco, Biossun, Volma, Horizal, Dessol, Saint-Gobain.
 
 ## Données techniques & Respect de la vie privée
 - Plateforme statique haute performance (Astro 5 SSG, hébergement Edge Cloudflare Pages).

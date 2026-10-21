@@ -16,26 +16,9 @@ draft: false
 Lieu: **Guadeloupe**
 
 ### Menuiseries associées
-	[
-
-	*				*
-
-](/produits/garde-corps-horizal-remplissage/)
 
 - [**Garde-corps HORIZAL Remplissage**](/produits/garde-corps-horizal-remplissage/)
 
-	[
-
-	*				*
-
-](/produits/brise-soleil-alb/)
-
 - [**Brise Soleil ALB**](/produits/brise-soleil-alb/)
-
-	[
-
-	*				*
-
-](/produits/portes-automatiques-saga-21/)
 
 - [**Portes Automatiques SAGA 21**](/produits/portes-automatiques-saga-21/)

@@ -14,7 +14,7 @@ Ambassades, postes de polices, banques mais aussi habitations privées… le sys
 
 ### EN SAVOIR +
 
-### [Descriptif AWS ADS 90](https://alubat971.com/download/descriptif-aws-ads-90/)
+### Descriptif AWS ADS 90
 
 ### FICHE TECHNIQUE
 

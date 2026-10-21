@@ -9,11 +9,9 @@ lang: "fr"
 draft: false
 ---
 
-[ad_1]
-
-Encore une nouvelle réalisation de l'équipe #alubatguadeloupe sur le projet:
+Encore une nouvelle réalisation de l'équipe ALUBAT Guadeloupe sur le projet:
   ▶ Pole enfants-parents CHU Guadeloupe
-  #alubatguadeloupe #menuiseriealuminium #guadeloupe #portfolio
+  ALUBAT Guadeloupe menuiseries aluminium Guadeloupe #portfolio
 
  Envie d'en savoir + sur ce chantier ? C'est sur youtube:
  https://qoo.ly/3aq8rd

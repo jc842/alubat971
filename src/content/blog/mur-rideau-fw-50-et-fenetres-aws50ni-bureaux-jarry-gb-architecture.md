@@ -21,10 +21,4 @@ Architecte: **GB Architecture**
 
 - [**Fenêtres AWS 50 NI**](/produits/fenetres-aws-50-ni/)
 
-	[
-
-	*				*
-
-](/produits/fw-50/)
-
 - [**Façade FW 50+**](/produits/fw-50/)

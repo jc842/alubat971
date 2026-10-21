@@ -22,8 +22,7 @@ FERIA a été conçu pour que la mise en oeuvre soit simple, en construction neu
 
 **Supports:
 
-**
-### [Descriptif Garde Corps FERIA](https://alubat971.com/download/descriptif-garde-corps-feria/)
+### Descriptif Garde Corps FERIA
 
 ### FICHE TECHNIQUE
 

@@ -9,8 +9,6 @@ lang: "fr"
 draft: false
 ---
 
-[ad_1]
-
 Vive les vacances ? Et pour vous assurer de les passer en toute tranquillité, toute l'équipe d'Alubat Guadeloupe reste disponible pour toutes vos réparations et préparations anti-cycloniques ? Le bon choix c'est ALUBAT assurément !
 
 [L'équipe ALUBAT GUADELOUPE – ALUBAT Menuiserie Aluminium Guadeloupe](https://qoo.ly/37592x)

@@ -12,9 +12,9 @@ draft: false
 
 ### EN SAVOIR +
 
-Destiné à la réalisation de portes et cloisons coupe-feu pour l’intérieur et l’extérieur, le système Schüco **ADS 80 FR 30/60**, en **Aluminium haute** **robustesse**, répond aux exigences des **classes de résistance au feu El 30 et EI 60**, conformément à la **norme EN 1364/1634.**
-### [Descriptif Gamme Feu Aluminium Schüco](https://alubat971.com/download/descriptif-gamme-feu-aluminium-schuco/)
-### [Descriptif Porte Coupe Feu Schuco](https://alubat971.com/download/descriptif-porte-coupe-feu-schuco/)
+Destiné à la réalisation de portes et cloisons coupe-feu pour l’intérieur et l’extérieur, le système Schüco **ADS 80 FR 30/60**, en **Aluminium haute robustesse**, répond aux exigences des **classes de résistance au feu El 30 et EI 60**, conformément à la **norme EN 1364/1634.**
+### Descriptif Gamme Feu Aluminium Schüco
+### Descriptif Porte Coupe Feu Schuco
 
 ### FICHE TECHNIQUE
 

@@ -16,10 +16,5 @@ draft: false
 Lieu: **Guadeloupe**
 
 ### Menuiseries associées
-	[
-
-	*				*
-
-](/produits/fenetres-aws-50-ni/)
 
 - [**Fenêtres AWS 50 NI**](/produits/fenetres-aws-50-ni/)

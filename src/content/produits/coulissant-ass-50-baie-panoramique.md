@@ -12,32 +12,31 @@ draft: false
 
 ### EN SAVOIR +
 
-Le coulissant à **rupture** de **pont** **thermique** Schüco ASS 50 constitue la solution idéale pour la réalisation de **châssis** de **très grandes dimensions** (jusqu’à **3 mètres de hauteur**) conjuguant **souplesse** **d’utilisation** et **robustesse**.
+Le coulissant à **rupture** de **pont thermique** Schüco ASS 50 constitue la solution idéale pour la réalisation de **châssis** de **très grandes dimensions** (jusqu’à **3 mètres de hauteur**) conjuguant **souplesse d’utilisation** et **robustesse**.
 
 Les avantages :
 
-– **Poignées** **ergonomiques**, manoeuvre aisée et silencieuse
+– **Poignées ergonomiques**, manoeuvre aisée et silencieuse
 
 –** 2 ouvrants disponibles: 84 et 96 mm.**
 
 – Grande liberté de configuration
 
-– **Versions** **bicolores** **possibles**
+– **Versions bicolores** **possibles**
 
-– côté intérieur des profilés de **teinte** **différente** de celle du côté extérieur (surfaces **laquées** ou **anodisées**)
+– côté intérieur des profilés de **teinte différente** de celle du côté extérieur (surfaces **laquées** ou **anodisées**)
 
 – Technique de fabrication et de pose optimisées
 
 **Supports:
 
-**
-### [Descriptif ASS 50](https://alubat971.com/download/descriptif-ass-50/)
+### Descriptif ASS 50
 
 ### FICHE TECHNIQUE
 
 Les caractéristiques :
 
-– **1** **rail** de roulement, **bi-rails** et** tri-rails**
+– **1 rail** de roulement, **bi-rails** et** tri-rails**
 
 –** Dimension maximum L x H 5000 x 3000 l**
 
@@ -52,4 +51,4 @@ Les caractéristiques :
 (PF : 3000 x 2500 mm) avec Ug = 1.0 l
 
 – Performance acoustique Rw = **34 dB**
-### [Fiche Technique ASS 50](https://alubat971.com/download/fiche-technique-ass-50/)
+### Fiche Technique ASS 50

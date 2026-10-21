@@ -14,7 +14,7 @@ Sa gamme étendue de lamelles offre des avantages incontestables : à côté d'u
 
 ### EN SAVOIR +
 
-### [Descriptif Protection Solaire ALB](https://alubat971.com/download/descriptif-protection-solaire-alb/)
+### Descriptif Protection Solaire ALB
 
 ### FICHE TECHNIQUE
 

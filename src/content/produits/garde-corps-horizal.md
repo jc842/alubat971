@@ -14,8 +14,7 @@ draft: false
 
 **Supports:
 
-**
-### [Descriptif Garde corps AZIRAL](https://alubat971.com/download/descriptif-garde-corps-aziral/)
+### Descriptif Garde corps AZIRAL
 
 ### FICHE TECHNIQUE
 

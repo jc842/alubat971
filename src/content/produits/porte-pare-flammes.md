@@ -13,8 +13,8 @@ draft: false
 ### EN SAVOIR +
 
 Ce système allie performances de sécurité incendie et design architectural.
-### [Descriptif Gamme Feu Aluminium Schüco](https://alubat971.com/download/descriptif-gamme-feu-aluminium-schuco/)
-### [Descriptif Porte Coupe Feu Schuco](https://alubat971.com/download/descriptif-porte-coupe-feu-schuco/)
+### Descriptif Gamme Feu Aluminium Schüco
+### Descriptif Porte Coupe Feu Schuco
 
 ### FICHE TECHNIQUE
 

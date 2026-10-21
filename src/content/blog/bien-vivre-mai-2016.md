@@ -9,4 +9,4 @@ lang: "fr"
 draft: false
 ---
 
-*Retrouvez votre revue Bien Vivre – Mai 2016 – Guadeloupe et ALUBAT Guadeloupe en page 25
+Retrouvez votre revue Bien Vivre – Mai 2016 – Guadeloupe et ALUBAT Guadeloupe en page 25

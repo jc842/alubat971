@@ -12,7 +12,7 @@ draft: false
 
 ### EN SAVOIR +
 
-### [Descriptif Protection Solaire ALB](https://alubat971.com/download/descriptif-protection-solaire-alb/)
+### Descriptif Protection Solaire ALB
 
 ### FICHE TECHNIQUE
 

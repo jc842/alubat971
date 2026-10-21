@@ -14,4 +14,4 @@ Pour un usage optimal, le store peut être motorisée, accompagné d'une station
 
 ### EN SAVOIR +
 
-### [Descriptif Stores Dessol](https://alubat971.com/download/descriptif-stores-verticaux-dessol/)
+### Descriptif Stores Dessol

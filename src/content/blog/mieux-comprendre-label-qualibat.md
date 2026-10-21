@@ -9,9 +9,9 @@ lang: "fr"
 draft: false
 ---
 
-Le label **QUALICOAT** concerne les produits en **aluminium** **laqués** en discontinu et après formage (on parle aussi de **post-laquage** ou **thermolaquage**). Le laquage en continu et avant formage (prélaquage) répond aux spécifications de l’ECCA (European Coil Coating Association), non prises en compte par QUALICOAT.
+Le label **QUALICOAT** concerne les produits en **aluminium laqués** en discontinu et après formage (on parle aussi de **post-laquage** ou **thermolaquage**). Le laquage en continu et avant formage (prélaquage) répond aux spécifications de l’ECCA (European Coil Coating Association), non prises en compte par QUALICOAT.
 
-Le thermolaquage comprend une **préparation de surface**, une **conversion** **chimique** (Chromique ou non-Chromique agréée par QUALICOAT), **l’application** de la **laque** (en général en poudre polyester) et la **cuisson** au **four**. Les **laques** utilisées font l’objet d’un **agrément** **préalable** de **QUALICOAT** qui vérifie leurs bonnes caractéristiques de **tenue** dans le **temps**. L’épaisseur moyenne de la couche de laque est d’**au moins 60 microns.**
+Le thermolaquage comprend une **préparation de surface**, une **conversion chimique** (Chromique ou non-Chromique agréée par QUALICOAT), **l’application** de la **laque** (en général en poudre polyester) et la **cuisson** au **four**. Les **laques** utilisées font l’objet d’un **agrément préalable** de **QUALICOAT** qui vérifie leurs bonnes caractéristiques de **tenue** dans le **temps**. L’épaisseur moyenne de la couche de laque est d’**au moins 60 microns.**
 
 Le référentiel du label décrit les prescriptions techniques, les contrôles à effectuer et leur fréquence. Les principales caractéristiques contrôlées sont :
 
@@ -33,8 +33,8 @@ Le référentiel du label décrit les prescriptions techniques, les contrôles �
 
 - La résistance (teinte et brillance) aux UV et à une exposition extérieure.
 
-En France, le label QUALICOAT est géré par **l’ADAL** et fait l’objet d’une **certification**. L’ADAL est **organisme** **certificateur** **accrédité** par le **COFRAC**.
+En France, le label QUALICOAT est géré par **l’ADAL** et fait l’objet d’une **certification**. L’ADAL est **organisme certificateur** **accrédité** par le **COFRAC**.
 
-Pour les **effets** **spéciaux** (bois, marbre,…), QUALICOAT a mis en place un label spécifique **QUALIDECO** dont les spécifications sont incluses dans celles de QUALICOAT.
+Pour les **effets spéciaux** (bois, marbre,…), QUALICOAT a mis en place un label spécifique **QUALIDECO** dont les spécifications sont incluses dans celles de QUALICOAT.
 
-Pour les **atmosphères** **extrêmes**, l’ADAL recommande une gamme **« Qualité Marine »** correspondant à une préparation de **surface** **renforcée** par un **double** **décapage** (**alcalin** puis **acide**) selon **QUALIMARINE**, avant le thermolaquage QUALICOAT.
+Pour les **atmosphères extrêmes**, l’ADAL recommande une gamme **« Qualité Marine »** correspondant à une préparation de **surface renforcée** par un **double décapage** (**alcalin** puis **acide**) selon **QUALIMARINE**, avant le thermolaquage QUALICOAT.

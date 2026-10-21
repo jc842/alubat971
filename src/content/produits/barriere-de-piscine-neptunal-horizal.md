@@ -13,13 +13,13 @@ draft: false
 ### EN SAVOIR +
 
 **Supports:**
-### [Descriptif Barrière de piscine NEPTUNAL](https://alubat971.com/download/descriptif-barriere-de-piscine-neptunal/)
+### Descriptif Barrière de piscine NEPTUNAL
 
 ### FICHE TECHNIQUE
 
 – Conforme à la norme NF P 90-306 de décembre 2003
 
-– Attestation d'essai **NORISKO** **CONSTRUCTION**
+– Attestation d'essai **NORISKO CONSTRUCTION**
 
 – Hauteur au sol : 119 cm
 

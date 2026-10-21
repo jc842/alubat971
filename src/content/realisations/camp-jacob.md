@@ -17,10 +17,4 @@ Lieu: Saint Claude, Guadeloupe
 
 - [**Garde-corps HORIZAL Verre**](/produits/garde-corps-horizal/)
 
-	[
-
-	*				*
-
-](/produits/fw-50/)
-
 - [**Façade FW 50+**](/produits/fw-50/)

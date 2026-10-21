@@ -23,7 +23,7 @@ La jalousie Royal S60, spécialement développée pour répondre aux exigences c
 – Moustiquaire adaptable en option
 
 **Supports: **
-### [Descriptif Jalousie RS 60](https://alubat971.com/download/descriptif-jalousie-rs-60/)
+### Descriptif Jalousie RS 60
 
 ### FICHE TECHNIQUE
 
@@ -37,7 +37,5 @@ La jalousie Royal S60, spécialement développée pour répondre aux exigences c
 
 **Supports:
 
-**
-
-### [Fiche Technique S60](https://alubat971.com/download/fiche-technique-s60/)
-### [Fiche Technique S60](https://alubat971.com/download/fiche-technique-s60/)
+### Fiche Technique S60
+### Fiche Technique S60

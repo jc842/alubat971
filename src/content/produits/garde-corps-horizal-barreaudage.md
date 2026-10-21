@@ -14,11 +14,10 @@ draft: false
 
 **Supports:
 
-**
-### [Descriptif Garde corps sur Muret](https://alubat971.com/download/descriptif-garde-corps-muret/)
-### [Descriptif Main Courante](https://alubat971.com/download/descriptif-main-courante/)
-### [Descriptif Garde corps Villa](https://alubat971.com/download/descriptif-garde-corps-villa/)
-### [Documentation ARTIK](https://alubat971.com/download/documentation-artik/)
+### Descriptif Garde corps sur Muret
+### Descriptif Main Courante
+### Descriptif Garde corps Villa
+### Documentation ARTIK
 
 ### FICHE TECHNIQUE
 

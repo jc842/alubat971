@@ -17,29 +17,10 @@ Lieu: **Guadeloupe**
 
 Architecte: **Michel Corbin
 
-**
-
 ### Menuiseries associées
-	[
-
-	*				*
-
-](/produits/fenetres-aws-50-ni/)
 
 - [**Fenêtres AWS 50 NI**](/produits/fenetres-aws-50-ni/)
 
-	[
-
-	*				*
-
-](/produits/volet-roulant-manuel-motorise/)
-
 - [**Volet Roulant**](/produits/volet-roulant-manuel-motorise/)
-
-	[
-
-	*				*
-
-](/produits/fw-50/)
 
 - [**Façade FW 50+**](/produits/fw-50/)

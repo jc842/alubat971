@@ -68,25 +68,22 @@ const theme = {
   <header class={`sticky top-0 z-40 backdrop-blur-md border-b shadow-xs ${theme.header}`}>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
-        <!-- Logo ALUBAT -->
-        <a href="/" class="flex flex-col group">
-          <div class="flex items-center space-x-2">
-            <span class="font-sans text-2xl sm:text-3xl font-extrabold tracking-tight text-zinc-950 group-hover:text-sky-600 transition-colors">
-              ALUBAT
-            </span>
-            <span class="text-xs font-black uppercase tracking-widest text-sky-600 bg-sky-50 border border-sky-200 px-2 py-0.5 rounded-sm">
-              971
-            </span>
-          </div>
-          <span class="text-[10px] uppercase tracking-[0.2em] text-zinc-500 font-semibold mt-0.5">
-            Menuiserie Aluminium • Guadeloupe
-          </span>
+        <!-- Logo ALUBAT Officiel -->
+        <a href="/" class="flex items-center space-x-3 group py-1" aria-label="Accueil ALUBAT Guadeloupe">
+          <img
+            src="/images/logo-alubat.webp"
+            alt="ALUBAT Menuiserie Aluminium Guadeloupe"
+            class="h-12 sm:h-14 w-auto object-contain transition-transform group-hover:scale-105"
+            width="160"
+            height="100"
+          />
         </a>
 
         <!-- Navigation Desktop -->
         <nav class="hidden lg:flex items-center space-x-6 text-xs font-bold uppercase tracking-wider text-zinc-700">
           <a href="/" class="hover:text-sky-600 transition-colors">Accueil</a>
           <a href="/produits/" class="hover:text-sky-600 transition-colors">Gamme Produits</a>
+          <a href="/partenaires/" class="hover:text-sky-600 transition-colors">Partenaires</a>
           <a href="/realisations/" class="hover:text-sky-600 transition-colors">Réalisations</a>
           <a href="/blog/" class="hover:text-sky-600 transition-colors">Actualités</a>
           <a href="/nos-valeurs/" class="hover:text-sky-600 transition-colors">Nos Valeurs</a>
@@ -130,21 +127,25 @@ const theme = {
   <footer class={`mt-auto border-t ${theme.footer} pt-16 pb-12`}>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
-        <!-- Colonne 1 : Entreprise -->
+        <!-- Colonne 1 : Entreprise ALUBAT -->
         <div>
-          <div class="flex items-center space-x-2 mb-3">
-            <span class="text-2xl font-extrabold text-white tracking-tight">ALUBAT</span>
-            <span class="text-xs font-bold uppercase tracking-widest text-sky-400 bg-sky-950 px-2 py-0.5 rounded-sm border border-sky-800">
-              Guadeloupe
-            </span>
+          <div class="bg-white rounded-lg p-2.5 w-fit mb-4">
+            <img
+              src="/images/logo-alubat.webp"
+              alt="Logo ALUBAT Guadeloupe"
+              class="h-10 w-auto object-contain"
+              width="140"
+              height="88"
+            />
           </div>
           <p class="text-xs text-zinc-400 leading-relaxed mb-4">
-            Fabricant et installateur de menuiseries aluminium depuis plus de 25 ans. 3 000 m² d'ateliers de production à Jarry Baie-Mahault.
+            Fabricant et installateur de menuiseries aluminium depuis plus de 40 ans en Guadeloupe. 3 000 m² d'ateliers de production de haute précision à Baie-Mahault (Jarry).
           </p>
           <div class="text-xs text-zinc-400 space-y-1">
-            <p>📍 Immeuble ABA2000, Bd de Houëlbourg Nord</p>
+            <p>📍 Immeuble ABA 2000, ZAC Moudong Nord</p>
             <p>97122 Baie-Mahault, Guadeloupe</p>
-            <p>🕒 Lundi au Vendredi : 8h00 – 16h00</p>
+            <p>📞 <a href="tel:0590266440" class="text-zinc-200 hover:underline">0590 26 64 40</a></p>
+            <p>🕒 Lun - Ven : 8h00 – 16h00</p>
           </div>
         </div>
 
@@ -155,64 +156,111 @@ const theme = {
           </h3>
           <ul class="text-xs text-zinc-400 space-y-2.5">
             <li><a href="/produits/" class="hover:text-white transition-colors">Baies Coulissantes & Galandages</a></li>
-            <li><a href="/produits/" class="hover:text-white transition-colors">Pergolas Bioclimatiques Biossun</a></li>
+            <li><a href="/biossun/" class="hover:text-white transition-colors">Pergolas Bioclimatiques Biossun</a></li>
             <li><a href="/produits/" class="hover:text-white transition-colors">Fenêtres & Châssis Paracycloniques</a></li>
-            <li><a href="/produits/" class="hover:text-white transition-colors">Portes d'Entrée & Blindées Volma</a></li>
-            <li><a href="/produits/" class="hover:text-white transition-colors">Volets Roulants & Jalousies</a></li>
+            <li><a href="/portes-volma/" class="hover:text-white transition-colors">Portes d'Entrée & Blindées Volma</a></li>
+            <li><a href="/horizal/" class="hover:text-white transition-colors">Garde-Corps & Barrières Horizal</a></li>
+            <li><a href="/dessol/" class="hover:text-white transition-colors">Stores de Terrasse Dessol</a></li>
             <li><a href="/produits/" class="hover:text-white transition-colors">Portes Automatiques & SAS Vitrés</a></li>
           </ul>
         </div>
 
-        <!-- Colonne 3 : Navigation & Références -->
-        <div>
-          <h3 class="text-xs font-bold uppercase tracking-widest text-zinc-100 mb-4 border-b border-zinc-800 pb-2">
-            L'Entreprise
-          </h3>
-          <ul class="text-xs text-zinc-400 space-y-2.5">
-            <li><a href="/realisations/" class="hover:text-white transition-colors">Nos Chantiers & Références</a></li>
-            <li><a href="/nos-valeurs/" class="hover:text-white transition-colors">Nos Valeurs & Engagements</a></li>
-            <li><a href="/architectes/" class="hover:text-white transition-colors">Espace Architectes & Bureaux d'Études</a></li>
-            <li><a href="/blog/" class="hover:text-white transition-colors">Actualités & Conseils Techniques</a></li>
-            <li><a href="/contact/" class="hover:text-white transition-colors">Demande de Devis Gratuit</a></li>
-            <li><a href="/mentions-legales/" class="hover:text-white transition-colors">Mentions Légales</a></li>
-          </ul>
-        </div>
-
-        <!-- Colonne 4 : Partenaires Marques -->
+        <!-- Colonne 3 : Partenaires Référence -->
         <div>
           <h3 class="text-xs font-bold uppercase tracking-widest text-zinc-100 mb-4 border-b border-zinc-800 pb-2">
             Partenaires & Marques
           </h3>
-          <p class="text-xs text-zinc-400 leading-relaxed mb-4">
-            Partenaire officiel des plus grandes signatures de la menuiserie internationale :
+          <ul class="text-xs text-zinc-400 space-y-2.5">
+            <li><a href="/partenaires/" class="text-sky-400 hover:text-sky-300 font-semibold transition-colors">→ Annuaire des Partenaires</a></li>
+            <li><a href="/schueco/" class="hover:text-white transition-colors">Schüco (Systèmes de profilés)</a></li>
+            <li><a href="/biossun/" class="hover:text-white transition-colors">Biossun (Pergolas bioclimatiques)</a></li>
+            <li><a href="/horizal/" class="hover:text-white transition-colors">Horizal (Garde-corps & portails)</a></li>
+            <li><a href="/portes-volma/" class="hover:text-white transition-colors">Volma (Panneaux de portes)</a></li>
+            <li><a href="/dessol/" class="hover:text-white transition-colors">Stores Dessol (Stores d'extérieur)</a></li>
+            <li><a href="/saint-gobain/" class="hover:text-white transition-colors">Saint-Gobain (Vitrages & acoustique)</a></li>
+          </ul>
+        </div>
+
+        <!-- Colonne 4 : Groupe C.P.G. (Filiales) -->
+        <div>
+          <h3 class="text-xs font-bold uppercase tracking-widest text-zinc-100 mb-4 border-b border-zinc-800 pb-2">
+            Groupe C.P.G.
+          </h3>
+          <p class="text-[11px] text-zinc-400 leading-relaxed mb-3">
+            Caraïbes Participation et Gestion — Réseau d'excellence Antilles, Guyane & Métropole :
           </p>
-          <div class="flex flex-wrap gap-2 text-[11px] font-bold text-zinc-300">
-            <span class="bg-zinc-800 px-2.5 py-1 rounded-sm border border-zinc-700">Schüco</span>
-            <span class="bg-zinc-800 px-2.5 py-1 rounded-sm border border-zinc-700">Biossun</span>
-            <span class="bg-zinc-800 px-2.5 py-1 rounded-sm border border-zinc-700">Volma</span>
-            <span class="bg-zinc-800 px-2.5 py-1 rounded-sm border border-zinc-700">Horizal</span>
-            <span class="bg-zinc-800 px-2.5 py-1 rounded-sm border border-zinc-700">Dessol</span>
-            <span class="bg-zinc-800 px-2.5 py-1 rounded-sm border border-zinc-700">Saint-Gobain</span>
+          <ul class="text-xs text-zinc-400 space-y-2">
+            <li>
+              <a href="https://alubat971.com" class="hover:text-white font-medium text-sky-400 transition-colors">
+                • ALUBAT Guadeloupe (Baie-Mahault)
+              </a>
+            </li>
+            <li>
+              <a href="http://www.alubat973.com" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">
+                • ALUBAT Guyane (Cayenne) ↗
+              </a>
+            </li>
+            <li>
+              <a href="http://www.samiversxm.com" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">
+                • SAMIVER (Saint-Martin) ↗
+              </a>
+            </li>
+            <li>
+              <a href="http://www.tecalu.com" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">
+                • TecAlu (Sint Maarten) ↗
+              </a>
+            </li>
+            <li>
+              <a href="http://www.alubarth.com" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">
+                • ALUBARTH (Saint-Barthélemy) ↗
+              </a>
+            </li>
+            <li>
+              <a href="http://www.iris-fenetres.com" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">
+                • IRIS Fenêtres (France Métropolitaine) ↗
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bandeau Réglementaire FEDER / Europe s'engage en Guadeloupe -->
+      <div class="my-8 pt-8 border-t border-zinc-800/90">
+        <div class="bg-zinc-900/90 border border-zinc-800 rounded-2xl p-5 sm:p-6 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div class="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-5 text-center sm:text-left">
+            <img
+              src="/images/logo-europe-feder-guadeloupe.webp"
+              alt="L'Europe s'engage en Guadeloupe avec le Fonds Européen de Développement Régional (FEDER)"
+              class="h-14 sm:h-16 w-auto object-contain bg-white rounded-lg p-2 shrink-0 shadow-xs"
+              loading="lazy"
+            />
+            <div>
+              <span class="text-[11px] font-extrabold uppercase tracking-widest text-sky-400 block">
+                Projet Cofinancé par l'Union Européenne & la Région Guadeloupe
+              </span>
+              <h4 class="text-sm font-bold text-white mt-1">
+                Fonds Européen de Développement Régional (FEDER)
+              </h4>
+              <p class="text-xs text-zinc-400 mt-1 max-w-3xl leading-relaxed">
+                L’Union Européenne et la Région Guadeloupe s’engagent avec le FEDER pour soutenir l’investissement industriel, la modernisation des équipements de fabrication locale et la transition énergétique des bâtiments aux Antilles.
+              </p>
+            </div>
           </div>
-          <div class="mt-6">
-            <a
-              href="tel:0590266440"
-              class="inline-block text-xs font-bold text-sky-400 hover:text-sky-300"
-            >
-              📞 0590 26 64 40
-            </a>
-          </div>
+          <span class="text-[10px] uppercase font-bold text-zinc-500 border border-zinc-800 bg-zinc-950 px-3 py-1.5 rounded-md shrink-0">
+            Programme FEDER Guadeloupe
+          </span>
         </div>
       </div>
 
       <!-- Ligne de Copyright & Traçabilité -->
-      <div class="pt-8 border-t border-zinc-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-500 gap-4">
+      <div class="pt-6 border-t border-zinc-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-500 gap-4">
         <div>
-          &copy; {new Date().getFullYear()} ALUBAT Guadeloupe — Tous droits réservés.
+          &copy; {new Date().getFullYear()} ALUBAT Guadeloupe (Groupe C.P.G.) — Tous droits réservés.
         </div>
-        <div class="flex space-x-6">
+        <div class="flex flex-wrap gap-4 sm:gap-6">
           <a href="/mentions-legales/" class="hover:text-zinc-300 transition-colors">Mentions Légales</a>
           <a href="/politique-confidentialite/" class="hover:text-zinc-300 transition-colors">Politique de Confidentialité</a>
+          <a href="/partenaires/" class="hover:text-zinc-300 transition-colors">Partenaires</a>
           <a href="/contact/" class="hover:text-zinc-300 transition-colors">Contact</a>
         </div>
       </div>

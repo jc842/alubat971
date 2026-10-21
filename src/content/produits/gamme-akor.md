@@ -12,7 +12,7 @@ draft: false
 
 ### EN SAVOIR +
 
-### [Descriptif Portail Gamme AKOR](https://alubat971.com/download/descriptif-portail-gamme-akor/)
+### Descriptif Portail Gamme AKOR
 
 ### FICHE TECHNIQUE
 

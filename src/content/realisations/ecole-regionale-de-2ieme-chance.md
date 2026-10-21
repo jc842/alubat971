@@ -16,26 +16,9 @@ draft: false
 Lieu: **Guadeloupe**
 
 ### Menuiseries associées
-	[
-
-	*				*
-
-](/produits/porte-ads-50/)
 
 - [**Porte Aluminium ADS 50 SCHUCO**](/produits/porte-ads-50/)
 
-	[
-
-	*				*
-
-](/produits/fenetres-aws-50-ni/)
-
 - [**Fenêtres AWS 50 NI**](/produits/fenetres-aws-50-ni/)
-
-	[
-
-	*				*
-
-](/produits/brise-soleil-alb/)
 
 - [**Brise Soleil ALB**](/produits/brise-soleil-alb/)

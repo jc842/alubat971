@@ -1,0 +1,228 @@
+---
+// src/components/sections/GroupeSection.astro
+// Section Institutionnelle : Présentation du Groupe C.P.G. et Carte des Implantations
+
+const caraibesLocations = [
+  {
+    territory: 'Guadeloupe',
+    entity: 'ALUBAT Guadeloupe (Siège & Usine)',
+    address: 'Immeuble Aba 2000, ZAC Moudong Nord, 97122 Baie-Mahault',
+    tel: '0590 26 64 40',
+    link: 'https://alubat971.com',
+    spec: '3 000 m² d\'ateliers de fabrication locale et showroom',
+    highlight: true,
+  },
+  {
+    territory: 'Guyane',
+    entity: 'ALUBAT Guyane',
+    address: '1,5 Route de la Madeleine, 97300 Cayenne',
+    tel: '0594 37 79 45',
+    link: 'http://www.alubat973.com',
+    spec: 'Fabrication et pose de menuiseries aluminium',
+    highlight: false,
+  },
+  {
+    territory: 'Saint-Martin',
+    entity: 'SAMIVER',
+    address: 'Hope Estate 2, Rue des Aborigènes, 97150 Saint-Martin',
+    tel: '0590 87 73 16',
+    link: 'http://www.samiversxm.com',
+    spec: 'Miroiterie, menuiseries et verres de sécurité',
+    highlight: false,
+  },
+  {
+    territory: 'Sint Maarten',
+    entity: 'TecAlu',
+    address: 'Ocean Building, Union Road #88, Sint Maarten',
+    tel: '+1 721 544 3280',
+    link: 'http://www.tecalu.com',
+    spec: 'Menuiseries architecturales & grands projets',
+    highlight: false,
+  },
+  {
+    territory: 'Saint-Barthélemy',
+    entity: 'ALUBARTH',
+    address: 'Les Mangliers, Saint-Jean, 97133 Saint-Barthélemy',
+    tel: '0590 87 32 41',
+    link: 'http://www.alubarth.com',
+    spec: 'Villas de prestige et menuiseries d\'exception',
+    highlight: false,
+  },
+];
+
+const franceLocations = [
+  {
+    department: 'Aube (10) — Usine',
+    city: 'Saint-Thibault',
+    role: 'Site de fabrication industrielle et logistique',
+    address: 'ZAC L\'Écluse des Marots, 10800 Saint-Thibault',
+  },
+  {
+    department: 'Seine-Saint-Denis (93)',
+    city: 'Montreuil',
+    role: 'Agence conseil & showroom IRIS Fenêtres',
+    address: '41 rue Douy Delcupe, 93100 Montreuil',
+  },
+  {
+    department: 'Hauts-de-Seine (92)',
+    city: 'Asnières-sur-Seine',
+    role: 'Agence conseil & rénovation',
+    address: '49 avenue d\'Argenteuil, 92600 Asnières-sur-Seine',
+  },
+  {
+    department: 'Val-d\'Oise (95)',
+    city: 'Saint-Gratien',
+    role: 'Agence conseil & menuiseries aluminium / PVC',
+    address: '23-27 boulevard de la Gare, 95210 Saint-Gratien',
+  },
+  {
+    department: 'Yvelines (78)',
+    city: 'Saint-Rémy-lès-Chevreuse',
+    role: 'Agence conseil vallée de Chevreuse',
+    address: '3 rue de la République, 78470 Saint-Rémy',
+  },
+];
+---
+
+<section class="py-16 sm:py-24 bg-zinc-950 text-white relative overflow-hidden">
+  <!-- Lueur de fond subtile -->
+  <div class="absolute -top-40 -right-40 w-96 h-96 bg-sky-600/20 rounded-full blur-3xl pointer-events-none"></div>
+  <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-sky-900/20 rounded-full blur-3xl pointer-events-none"></div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="max-w-3xl mb-12 sm:mb-16">
+      <div class="inline-flex items-center space-x-2 bg-sky-950/80 border border-sky-500/30 px-3 py-1 rounded-full text-xs font-bold text-sky-400 uppercase tracking-widest mb-4">
+        <span>Force Industrielle & Réseau Territorial</span>
+      </div>
+      <h2 class="text-3xl sm:text-5xl font-black tracking-tight text-white">
+        Notre Groupe C.P.G.
+      </h2>
+      <p class="mt-4 text-base sm:text-lg text-zinc-300 leading-relaxed">
+        <strong>ALUBAT GUADELOUPE</strong> est membre fondateur de la holding <strong>C.P.G. (Caraïbes Participation et Gestion)</strong>. Avec ses filiales spécialisées et ses unités de production, le groupe est présent en <strong>France Métropolitaine</strong>, dans l'ensemble des <strong>Antilles-Guyane</strong> et à l'international.
+      </p>
+    </div>
+
+    <!-- Carte SVG et Présentation des 2 Pôles -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mb-14">
+      <!-- Visuel Carte du Groupe -->
+      <div class="lg:col-span-6 bg-zinc-900/90 border border-zinc-800 rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-2xl">
+        <div class="flex items-center justify-between mb-4 pb-4 border-b border-zinc-800">
+          <div>
+            <h3 class="text-lg font-bold text-white">Carte d'Implantation Géographique</h3>
+            <span class="text-xs text-zinc-400">Pôle Caraïbes & Pôle France Métropolitaine</span>
+          </div>
+          <span class="px-2.5 py-1 text-[11px] font-bold rounded-md bg-sky-500/20 text-sky-300 border border-sky-500/40">
+            11 Implantations
+          </span>
+        </div>
+
+        <div class="w-full flex items-center justify-center py-4 bg-zinc-950/60 rounded-xl overflow-hidden border border-zinc-800/80">
+          <img
+            src="/images/map-groupe-cpg.svg"
+            alt="Carte des implantations du Groupe C.P.G. Caraïbes et France"
+            class="w-full h-auto max-h-[300px] object-contain filter invert opacity-90 hover:opacity-100 transition-opacity"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="mt-6 grid grid-cols-2 gap-4 text-xs">
+          <div class="p-3 bg-zinc-950/40 border border-zinc-800/80 rounded-lg">
+            <span class="text-sky-400 font-bold block text-sm">Pôle Caraïbes</span>
+            <span class="text-zinc-400 mt-0.5 block">5 Agences & Ateliers : Guadeloupe, Guyane, St-Martin, Sint Maarten, St-Barth.</span>
+          </div>
+          <div class="p-3 bg-zinc-950/40 border border-zinc-800/80 rounded-lg">
+            <span class="text-emerald-400 font-bold block text-sm">Pôle France</span>
+            <span class="text-zinc-400 mt-0.5 block">6 Sites : Usine de fabrication (Aube) & 4 Agences en Île-de-France (Iris Fenêtres).</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pôle Caraïbes Détaillé -->
+      <div class="lg:col-span-6 space-y-4">
+        <h3 class="text-xl font-extrabold tracking-tight text-white flex items-center">
+          <span class="w-2.5 h-2.5 rounded-full bg-sky-400 mr-2.5 inline-block"></span>
+          Implantations Caraïbes & Guyane
+        </h3>
+        <div class="space-y-3">
+          {caraibesLocations.map(loc => (
+            <div class={`p-4 rounded-xl border transition-all ${
+              loc.highlight
+                ? 'bg-sky-950/40 border-sky-500/50 shadow-md ring-1 ring-sky-500/30'
+                : 'bg-zinc-900/60 border-zinc-800 hover:border-zinc-700'
+            }`}>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                  <span class="text-sm font-extrabold text-white">{loc.entity}</span>
+                  <span class="text-[10px] font-bold px-2 py-0.5 rounded-sm bg-zinc-800 text-sky-300 uppercase">
+                    {loc.territory}
+                  </span>
+                </div>
+                {loc.link && (
+                  <a
+                    href={loc.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-xs text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center"
+                  >
+                    Site <span class="ml-1">↗</span>
+                  </a>
+                )}
+              </div>
+              <p class="text-xs text-zinc-400 mt-1.5 flex items-center">
+                <svg class="w-3.5 h-3.5 mr-1 text-zinc-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                </svg>
+                {loc.address}
+              </p>
+              <div class="mt-2 flex items-center justify-between text-[11px] pt-2 border-t border-zinc-800/60">
+                <span class="text-zinc-500">{loc.spec}</span>
+                <a href={`tel:${loc.tel.replace(/\s+/g, '')}`} class="text-zinc-300 hover:text-white font-mono font-medium">
+                  {loc.tel}
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- Pôle Métropole : IRIS Fenêtres & Usine -->
+    <div class="bg-zinc-900/40 border border-zinc-800/80 rounded-2xl p-6 sm:p-8">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 pb-4 border-b border-zinc-800">
+        <div>
+          <h3 class="text-lg font-bold text-white flex items-center">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 mr-2.5 inline-block"></span>
+            Pôle France Métropolitaine — Réseau IRIS Fenêtres & Usine
+          </h3>
+          <p class="text-xs text-zinc-400 mt-1">
+            Production industrielle de haute technologie et réseau de distribution en Île-de-France et Région Grand Est.
+          </p>
+        </div>
+        <a
+          href="http://www.iris-fenetres.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="shrink-0 text-xs font-bold uppercase tracking-wider text-emerald-400 hover:text-emerald-300 bg-emerald-950/60 border border-emerald-500/40 px-3.5 py-2 rounded-lg"
+        >
+          Découvrir IRIS Fenêtres ↗
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3.5">
+        {franceLocations.map(site => (
+          <div class="p-3.5 bg-zinc-950/60 border border-zinc-800/70 rounded-xl">
+            <span class="text-[11px] font-black uppercase tracking-wider text-emerald-400 block">
+              {site.department}
+            </span>
+            <span class="text-sm font-bold text-white block mt-0.5">
+              {site.city}
+            </span>
+            <span class="text-[11px] text-zinc-400 mt-1 block">
+              {site.role}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,126 @@
+---
+// src/components/sections/PartnersGrid.astro
+// Grille des Marques Partenaires Référence et Labels Qualité ALUBAT
+
+const partners = [
+  {
+    name: 'Schüco',
+    category: 'Systèmes de Baies, Fenêtres & Façades',
+    logo: '/images/partners/logo-schuco.webp',
+    href: '/schueco/',
+    description: 'Leader mondial des systèmes de menuiseries aluminium haute performance et façades mur-rideau.',
+  },
+  {
+    name: 'Biossun',
+    category: 'Pergolas Bioclimatiques 100% France',
+    logo: '/images/partners/logo-biossun.webp',
+    href: '/biossun/',
+    description: 'Pionnier des pergolas bioclimatiques à lames orientables motorisées en aluminium première fusion.',
+  },
+  {
+    name: 'Horizal',
+    category: 'Garde-corps & Barrières de Piscine',
+    logo: '/images/partners/logo-horizal.webp',
+    href: '/horizal/',
+    description: 'Premier fabricant européen de garde-corps aluminium, barreaudages design et clôtures sécurisées.',
+  },
+  {
+    name: 'Volma',
+    category: 'Portes d\'Entrée & Panneaux Décoratifs',
+    logo: '/images/partners/logo-volma.webp',
+    href: '/portes-volma/',
+    description: 'Fabricant français d\'excellence pour panneaux de portes d\'entrée contemporaines et traditionnelles.',
+  },
+  {
+    name: 'Stores Dessol',
+    category: 'Stores de Terrasse & Protection Solaire',
+    logo: '/images/partners/logo-dessol.webp',
+    href: '/dessol/',
+    description: 'Systèmes d\'ombrage extérieurs haut de gamme, toiles techniques haute résistance aux UV tropicaux.',
+  },
+  {
+    name: 'Saint-Gobain',
+    category: 'Vitrages Isolants & Sécurité Feuillete',
+    logo: '/images/partners/logo-saintgobain.webp',
+    href: '/saint-gobain/',
+    description: 'N°1 mondial des vitrages de contrôle solaire, isolation thermique et verres anticycloniques.',
+  },
+];
+---
+
+<section class="py-16 sm:py-20 bg-white border-y border-zinc-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+      <div class="inline-flex items-center space-x-2 bg-sky-50 border border-sky-200 px-3 py-1 rounded-full text-xs font-bold text-sky-700 uppercase tracking-widest mb-3">
+        <span>Partenariats Industriels d'Excellence</span>
+      </div>
+      <h2 class="text-3xl sm:text-4xl font-black text-zinc-900 tracking-tight">
+        Les Plus Grands Fabricants Mondiaux Choisissent ALUBAT
+      </h2>
+      <p class="mt-4 text-base sm:text-lg text-zinc-600">
+        Pour vous garantir une fiabilité absolue face au climat marin et anticyclonique de Guadeloupe, nous intégrons exclusivement les composants des leaders européens du secteur.
+      </p>
+    </div>
+
+    <!-- Grille des Partenaires -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+      {partners.map(partner => (
+        <a
+          href={partner.href}
+          class="group relative bg-[#fafafa] rounded-2xl p-6 sm:p-8 border border-zinc-200/90 hover:border-sky-500 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between"
+        >
+          <div>
+            <div class="h-16 flex items-center justify-start mb-6">
+              <img
+                src={partner.logo}
+                alt={`Logo officiel ${partner.name}`}
+                class="max-h-12 max-w-[180px] object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
+                loading="lazy"
+              />
+            </div>
+            <span class="text-xs font-bold uppercase tracking-wider text-sky-600 block mb-1">
+              {partner.category}
+            </span>
+            <h3 class="text-xl font-bold text-zinc-900 group-hover:text-sky-600 transition-colors">
+              {partner.name}
+            </h3>
+            <p class="mt-2 text-sm text-zinc-600 leading-relaxed">
+              {partner.description}
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-zinc-200/80 flex items-center text-xs font-bold uppercase tracking-wider text-zinc-800 group-hover:text-sky-600">
+            <span>Découvrir la gamme {partner.name}</span>
+            <svg class="w-4 h-4 ml-1.5 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <!-- Bandeau Certification Qualimarine -->
+    <div class="mt-12 bg-zinc-900 rounded-2xl p-6 sm:p-8 text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-md">
+      <div class="flex items-center space-x-5">
+        <img
+          src="/images/partners/logo-qualimarine.webp"
+          alt="Label Qualimarine Aluminium Bord de Mer"
+          class="h-16 w-auto object-contain bg-white rounded-lg p-1.5 shrink-0"
+          loading="lazy"
+        />
+        <div>
+          <span class="text-xs uppercase font-extrabold tracking-widest text-sky-400">Qualité Certifiée Antilles</span>
+          <h4 class="text-lg font-bold text-white mt-0.5">Traitement de Surface Haute Durabilité</h4>
+          <p class="text-xs sm:text-sm text-zinc-300 mt-1 max-w-2xl">
+            Toutes nos menuiseries bénéficient des labels <strong>Qualimarine®</strong> et <strong>Qualicoat®</strong>, garantissant une tenue exceptionnelle au brouillard salin et aux atmosphères marines agressives.
+          </p>
+        </div>
+      </div>
+      <a
+        href="/contact/"
+        class="shrink-0 bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold uppercase tracking-wider px-6 py-3.5 rounded-xl shadow-xs transition-colors"
+      >
+        Demander un Chiffrage
+      </a>
+    </div>
+  </div>
+</section>

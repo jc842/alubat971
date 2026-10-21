@@ -15,7 +15,7 @@ Le passage régulier de **cyclones** peut provoquer des dommages extrêmes pou
 
 S’il arrive qu’une **construction paracyclonique** ne résiste pas à tous les aléas provoqués par un **cyclone**, **sa structure doit toutefois permettre d’éviter ou de minimiser les préjudices humains.**
 
-La **construction paracyclonique** doit également offrir une **résistance mécanique maximale** (**ossature** **rigide** et **structure** **flexible**) pour un coût maîtrisé.
+La **construction paracyclonique** doit également offrir une **résistance mécanique maximale** (**ossature rigide** et **structure flexible**) pour un coût maîtrisé.
 S’il n’existe pas à proprement parler de **normes**, la **construction paracyclonique** doit respecter certaines règles **anticycloniques** selon la législation en vigueur. Selon le pays ou la région et suivant le risque, les **constructions anticycloniques** courantes doivent résister à des pressions de vent variant entre 120 à 250 km/h, aux débris aériens et à la pluie. La **construction paracyclonique** doit améliorer la résistance générale du bâtiment et répondre à trois grands axes de conception : la prise au vent, le contreventement et l'ancrage au sol.
 
 - L'effet prise au vent implique la réduction à 30 cm au maximum de la taille de dépassement de la toiture. La couverture en tôle ondulée doit être fixée à l'aide de tire-fond. La pente du toit doit se situer autour de 30°. Un système de volet **paracyclonique** doit être utilisé pour toutes les ouvertures, fenêtres et portes
@@ -28,7 +28,7 @@ Le non-respect des **normes de constructions paracycloniques** des **bâtimen
 
 Source= [https://fr.wikipedia.org/wiki/Construction_paracyclonique](https://fr.wikipedia.org/wiki/Construction_paracyclonique)
 
-*Découvrez notre gamme Alubat Guadeloupe:*
+Découvrez notre gamme Alubat Guadeloupe:*
 - [**Porte Repliable Coulissante ASS 70 FD**](/produits/porte-repliable-coulissante-ass-70-fd/)
 
 - [**Porte-Fenêtre AWS 50 NI**](/produits/porte-fenetre-aws-50/)

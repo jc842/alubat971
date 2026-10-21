@@ -18,18 +18,7 @@ Lieu: **Guadeloupe**
 Architecte:  Couleurs d'architecture
 
 ### Menuiseries associées
-	[
-
-	*				*
-
-](/produits/garde-corps-horizal-remplissage/)
 
 - [**Garde-corps HORIZAL Remplissage**](/produits/garde-corps-horizal-remplissage/)
-
-	[
-
-	*				*
-
-](/produits/brise-soleil-alb/)
 
 - [**Brise Soleil ALB**](/produits/brise-soleil-alb/)
