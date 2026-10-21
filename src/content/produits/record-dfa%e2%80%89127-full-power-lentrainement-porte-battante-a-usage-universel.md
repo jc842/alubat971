@@ -10,6 +10,4 @@ lang: "fr"
 draft: false
 ---
 
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */
+

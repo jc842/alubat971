@@ -1,46 +1,49 @@
 ---
-title: "Architectes"
-description: "Architectes - ALUBAT Guadeloupe, spécialiste de la menuiserie aluminium."
-heroImage: "/og-image.jpg"
+title: "Architectes & Maîtres d'Œuvre en Guadeloupe"
+description: "Témoignages et collaborations entre ALUBAT Guadeloupe et les cabinets d'architecture de premier plan : GB Architecture, Benoit Architecte, Couleurs d'Architecture, AD Architecture."
+heroImage: "/images/page-alubat-fabricant-installateur-de-menuisieries-aluminum-guadeloup.webp"
 lang: "fr"
 ---
 
-## ILS NOUS FONT CONFIANCE
+## Ils Nous Font Confiance
 
-					
-				
-					
-						
+Depuis plus de deux décennies, les cabinets d'architecture et bureaux d'études de renom de Guadeloupe collaborent étroitement avec **ALUBAT** pour concevoir des ouvrages d'exception alliant audace architecturale, durabilité tropicale et précision technique.
 
-# 
+Voici les retours d'expérience des architectes qui nous confient la réalisation de leurs projets résidentiels, tertiaires et hôteliers.
 
-					
-				
-					
-						#fusion-testimonials-1 a{border-color:#112d6b;}#fusion-testimonials-1 a:hover, #fusion-testimonials-1 .activeSlide{background-color: #112d6b;}.fusion-testimonials.clean.fusion-testimonials-1 .author:after{border-top-color:#ffffff !important;}La société ALUBAT assure son activité dans les règles de l’art et dans le meilleur esprit professionnel, comme j’ai pu le vérifier notamment sur mes projets les plus récents (2012à2016) :
+---
 
-– HOTEL LA TOUBANA – Sainte Anne.
+### Témoignages de Cabinets d'Architecture Partenaires
 
-– LA CREOLE BEACH HOTEL & SPA – Gosier.
+> « La société ALUBAT assure son activité dans les règles de l'art et dans le meilleur esprit professionnel, comme j'ai pu le vérifier notamment sur mes projets les plus récents : Hôtel La Toubana (Sainte-Anne), La Créole Beach Hôtel & Spa (Gosier), KFC Abymes et Gosier. »
+>
+> — **Guy Benoist**, *Benoit Architecte*
 
-– KFC – Abymes – Gosier.**Guy Benoist**, BENOIT ARCHITECTETous les travaux effectués par l'entreprise de menuiseries aluminium ALUBAT/ALUPOSE, nous ont donné jusqu'à ce jour, entière satisfaction aussi bien en fabrication qu'en pose.
+---
 
-Nous avons notamment travaillé ensemble sur les projets suivant
+> « Tous les travaux effectués par l'entreprise de menuiseries aluminium ALUBAT / ALUPOSE nous ont donné jusqu'à ce jour entière satisfaction, aussi bien en fabrication qu'en pose. Nous avons notamment travaillé ensemble sur la construction de logements résidentiels et sociaux, la construction de villas d'exception, et la réalisation de bureaux et de bâtiments publics. »
+>
+> — **Céline Degoulet**, *Couleurs d'Architecture*
 
-• La construction de logements résidentiels et sociaux
+---
 
-• La construction de villas
+> « La société ALUBAT a exécuté sous ma direction de nombreux travaux de menuiserie aluminium sur des programmes immobiliers tertiaires et résidentiels. Cette entreprise m'a donné entière satisfaction pour toutes les prestations effectuées, dans le respect scrupuleux des normes et des délais. »
+>
+> — **Gérard Barbotteau**, *GB Architecture*
 
-• La construction de bureaux et de bâtiments publics (Gendarmerie)**Céline DEGOULET**, Couleurs d' ArchitectureLa société ALUBAT a exécuté sous ma direction, de nombreux travaux de menuiserie aluminium sur des projets de programmes immobiliers et autres.
+---
 
-/* <!&#091;CDATA&#091; */
-fpm_start( "true" );
-/* &#093;&#093;> */
+> « Tous les travaux effectués par l'entreprise de menuiserie aluminium ALUBAT nous ont donné entière satisfaction en termes de finition, d'étanchéité et de tenue dans le temps. Nous collaborons régulièrement sur des projets d'envergure : programmes de logements, villas contemporaines et équipements collectifs. »
+>
+> — **Véronique Hirth**, *SELARL d'Architecture AD*
 
-Cette entreprise m'a donné entière satisfaction pour toutes les prestations effectuées. **Gérard BARBOTTEAU**, GB ARCHITECTUREtous les travaux effectués par l'entreprise de menuiserie aluminium ALUBAT/ALUPOSE, nous ont donné jusqu'à ce jour, entière satisfaction aussi bien en fabrication qu'en pose.
+---
 
-Nous avons notamment travaillé ensemble sur les projets suivants :
+### Vous Êtes Architecte ou Maître d'Œuvre ?
 
-• la construction de logements sociaux et autres,
+Notre bureau d'études met à votre disposition :
+- Fiches techniques systèmes Schüco, Horizal, Volma et Biossun.
+- Plans d'exécution, détails de réservations et coupes de principe (DWG / CAD).
+- Avis techniques CSTB, procès-verbaux d'essais AEV et attestations de conformité paracyclonique.
 
-• la construction de villas, etc &#8230;**Véronique HIRTH**, SELARL D'ARCHITECTURE AD
+[Contactez notre direction technique](/contact/) pour étudier vos projets en amont.

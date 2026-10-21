@@ -9,14 +9,6 @@ lang: "fr"
 draft: false
 ---
 
-/* <!&#091;CDATA&#091; */
-fpm_start( "true" );
-/* &#093;&#093;> */
-
-## 
-
-## 
-
 ## PROTECTION BANQUE D’ACCUEIL AMOVIBLE VITRAGE STADIP 44/2
 
 DIMENSIONS : L 1 000 mm x Ht 900 mm POSSIBILITÉ DE FAIRE DU SUR MESURE

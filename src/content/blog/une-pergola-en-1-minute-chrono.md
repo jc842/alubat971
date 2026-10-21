@@ -15,12 +15,8 @@ Profitez encore plus longtemps de votre jardin, aménagez votre terrasse, vivez 
 
 Bienvenue dans votre natural open space ?
 
-Contactez l'équipe commercial d'ALUBAT Guadeloupe dès maintenant: 
+Contactez l'équipe commercial d'ALUBAT Guadeloupe dès maintenant:
 
 ☎ [0590 26 64 40](tel:0590266440)
 
  ?[ info@alubat971.com](mailto:info@alubat971.com)
-
-/* <!&#091;CDATA&#091; */
-fpm_start( "true" );
-/* &#093;&#093;> */

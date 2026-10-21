@@ -38,7 +38,3 @@ En France, le label QUALICOAT est géré par **l’ADAL** et fait l’objet d’
 Pour les **effets** **spéciaux** (bois, marbre,…), QUALICOAT a mis en place un label spécifique **QUALIDECO** dont les spécifications sont incluses dans celles de QUALICOAT.
 
 Pour les **atmosphères** **extrêmes**, l’ADAL recommande une gamme **« Qualité Marine »** correspondant à une préparation de **surface** **renforcée** par un **double** **décapage** (**alcalin** puis **acide**) selon **QUALIMARINE**, avant le thermolaquage QUALICOAT.
-
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */

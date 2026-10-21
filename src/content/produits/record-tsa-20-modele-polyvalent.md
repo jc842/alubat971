@@ -33,7 +33,3 @@ Nous nous sommes efforcés de concevoir une porte qui offrait dans son processus
 Électronique
 
 Le record system 20 dispose de la capacité à laisser ses composants communiquer entre eux de manière interactive, ce qui consolide en priorité l’aspect sécuritaire. La capacité à communiquer entre automatisme, capteurs et unité de commande permet une surveillance constante des états des composants individuels. L’état de fonctionnement du système de porte et de ses composants électroniques individuels est ainsi continuellement soumis à des contrôles au niveau de l’appareil de commande. Grâce à la faculté d’apprentissage de l’appareil, les dysfonctionnements se font toujours plus rares.
-
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */

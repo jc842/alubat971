@@ -1,5 +1,5 @@
 ---
-title: "Toute l'équipe #alubatguadeloupe est fière de vous présenter nos #menuiseriealum&#8230;"
+title: "Toute l'équipe #alubatguadeloupe est fière de vous présenter nos #menuiseriealum…"
 description: "[ad_1] Toute l'équipe #alubatguadeloupe est fière de vous présenter nos #menuiseriealuminium sur le projet: ▶ Tour Radar – Météo France, [...]"
 pubDate: "2021-02-06T07:17:10"
 category: "Actualité"
@@ -22,7 +22,3 @@ Toute l'équipe #alubatguadeloupe est fière de vous présenter nos #menuiseriea
 [ad_2]
 
 [Source](https://www.facebook.com/950390778370542/posts/3677170769025849)
-
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */

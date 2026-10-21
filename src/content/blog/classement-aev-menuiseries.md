@@ -22,9 +22,3 @@ Une performance moyenne se situant autour de 4A ou 5A. Si la note est suivie de 
 - **VENT** : La résistance au vent est notée selon **2 critères** : la résistance à la **pression**(en **chiffre**) et la **déformation** (en **lettre**).
 
 la résistance à la **pression** du **vent** est notée de** 1** (faible) à **5** (forte), la **déformation**  est notée de **A** (faible) à **C** (très faible)
-
- 
-
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */

@@ -18,12 +18,6 @@ Encore une nouvelle réalisation de l'équipe #alubatguadeloupe sur le projet:
  Envie d'en savoir + sur ce chantier ? C'est sur youtube:
  https://qoo.ly/3aq8rd
 
- 
-
 [ad_2]
 
-Source  
-
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */
+Source

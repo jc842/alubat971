@@ -23,12 +23,8 @@ Ses caractéristiques principales sont:
 
 - Le pivot est généralement excentré ce qui réduit d'autant le passage.
 
-- Généralement invisible, l'ouverture peut aller jusqu'à 360° sur pivot axé mais le passage est réduit selon l&#8217;emplacement du pivot.
+- Généralement invisible, l'ouverture peut aller jusqu'à 360° sur pivot axé mais le passage est réduit selon l'emplacement du pivot.
 
 - La porte peut être finie comme les murs, ouverture par simple pression de la main pour une intégration parfaite dans le décor.
 
 - Tous les types de matériaux sont possibles. Le sur-mesure offre des possibilités de panneaux lumineux ou bien de miroir.
-
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */

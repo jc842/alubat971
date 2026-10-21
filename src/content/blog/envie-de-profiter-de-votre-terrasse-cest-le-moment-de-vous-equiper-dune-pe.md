@@ -1,5 +1,5 @@
 ---
-title: "Envie de profiter de votre terrasse ? C'est le moment de vous équiper d'une pe&#8230;"
+title: "Envie de profiter de votre terrasse ? C'est le moment de vous équiper d'une pe…"
 description: "[ad_1] 🌞 Envie de profiter de votre terrasse ? C'est le moment de vous équiper d'une pergola bioclimatique BIOSSUN grâce [...]"
 pubDate: "2021-02-27T08:32:40"
 category: "Actualité"
@@ -22,7 +22,3 @@ Envie d'en savoir plus ? Contactez nous dès maintenant au 📞0590 26 64 40
 [ad_2]
 
 [Source](https://www.facebook.com/950390778370542/posts/3737036683039257)
-
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */

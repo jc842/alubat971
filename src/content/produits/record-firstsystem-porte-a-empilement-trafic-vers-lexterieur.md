@@ -12,11 +12,11 @@ draft: false
 
 Elle offre une large gamme de solutions afin de s'adapter au mieux à votre environnement :
 
-Un grand nombre de solutions pour l'ouverture : radars, cellules, boucles magnétiques, boutons poussoirs, tirettes, télécommandes,&#8230;
+Un grand nombre de solutions pour l'ouverture : radars, cellules, boucles magnétiques, boutons poussoirs, tirettes, télécommandes,…
 
 Possibilité d'installer une FIRSTSYSTEM directement sur la structure d'une porte sectionnelle
 
-Nombreuses options : 2 hauteurs d'ouverture (ouverture piétons), rangées de hublots de visibilité, détection infra rouge,&#8230;
+Nombreuses options : 2 hauteurs d'ouverture (ouverture piétons), rangées de hublots de visibilité, détection infra rouge,…
 
 Caractéristiques techniques :
 
@@ -29,7 +29,3 @@ Double motorisation
 Résistance au vent classe 4
 
 Elle peut mesurer jusqu'à 6m x 6m.
-
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */

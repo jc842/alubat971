@@ -50,8 +50,4 @@ Le système record Anti-Crash (RACS) a été développé pour protéger les bâc
 
 Maintenance
 
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */
-
 La record SPEEDCORD a été conçue pour être maintenue avec facilité. Un moteur Brushless, un entraînement par chaîne et une platine électronique apportent des avantages indéniables dans cette maintenance.

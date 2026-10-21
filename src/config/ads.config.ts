@@ -1,6 +1,6 @@
 /**
- * Configuration publicitaire Revive Adserver pour le domaine 123alu.com
- * Source : Inventaire ads.les4h.fr (Affiliate ID 88)
+ * Configuration publicitaire Revive Adserver pour le domaine alubat971.com
+ * Source : Inventaire ads.les4h.fr (Affiliate ID 132 - PBN_alubat971.com)
  */
 
 export interface AdZoneConfig {
@@ -28,54 +28,52 @@ export interface DomainAdsConfig {
 }
 
 export const adsConfig: DomainAdsConfig = {
-  domain: '123alu.com',
-  affiliateId: 88,
+  domain: 'alubat971.com',
+  affiliateId: 132,
   reviveId: 'ac119b122a644588953c74c4c1daee06',
   scriptUrl: '//ads.les4h.fr/www/delivery/asyncjs.php',
   zones: {
     header: {
-      zoneId: 479,
+      zoneId: 786,
       format: 'leaderboard',
       width: 728,
       height: 90,
-      name: 'Leaderboard 479',
+      name: 'Leaderboard 786',
     },
     inContent: {
-      zoneId: 480,
+      zoneId: 785,
       format: 'mediumRectangle',
       width: 300,
       height: 250,
-      name: 'Medium Rectangle 480',
+      name: 'Medium Rectangle 785',
     },
     mobileSticky: {
-      zoneId: 488,
+      zoneId: 784,
       format: 'mobileBanner',
       width: 320,
       height: 100,
-      name: 'Mobile Banner 488',
+      name: 'Mobile Banner 784',
     },
     largeRectangle: {
-      zoneId: 483,
+      zoneId: 788,
       format: 'largeRectangle',
       width: 336,
       height: 280,
-      name: 'Large Rectangle 483',
+      name: 'Large Rectangle 788',
     },
     halfPage: {
-      zoneId: 478,
+      zoneId: 787,
       format: 'halfPage',
       width: 300,
       height: 600,
-      name: 'Half Page 478',
+      name: 'Half Page 787',
     },
     skyscraper: {
-      zoneId: 489,
+      zoneId: 789,
       format: 'skyscraper',
       width: 160,
       height: 600,
-      name: 'Skyscraper 489',
+      name: 'Skyscraper 789',
     },
   },
 };
-
-export default adsConfig;

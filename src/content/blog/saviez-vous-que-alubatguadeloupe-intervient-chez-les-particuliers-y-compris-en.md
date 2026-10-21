@@ -11,16 +11,10 @@ draft: false
 
 [ad_1]
 
-Saviez-vous que #alubatguadeloupe intervient chez les particuliers, y compris en site occupé ? 
+Saviez-vous que #alubatguadeloupe intervient chez les particuliers, y compris en site occupé ?
   ▶ Porte, Volet roulant et Fenêtres – Client particulier – Guadeloupe
   #alubatguadeloupe #menuiseriealuminium #guadeloupe #portfolio
 
- 
-
 [ad_2]
 
-Source  
-
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */
+Source

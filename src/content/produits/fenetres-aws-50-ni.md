@@ -10,51 +10,16 @@ lang: "fr"
 draft: false
 ---
 
-#wrapper .fusion-tabs.fusion-tabs-25.clean .nav-tabs li a.tab-link{border-color:#FFFFFF;}.fusion-tabs.fusion-tabs-25 .nav-tabs li a.tab-link{background-color:#f5f5f5;}.fusion-tabs.fusion-tabs-25 .nav-tabs li.active a.tab-link,.fusion-tabs.fusion-tabs-25 .nav-tabs li.active a.tab-link:hover,.fusion-tabs.fusion-tabs-25 .nav-tabs li.active a.tab-link:focus{background-color:#ffffff;}.fusion-tabs.fusion-tabs-25 .nav-tabs li a:hover{background-color:#ffffff;border-top-color:#ffffff;}.fusion-tabs.fusion-tabs-25 .tab-pane{background-color:#ffffff;}.fusion-tabs.fusion-tabs-25 .nav,.fusion-tabs.fusion-tabs-25 .nav-tabs,.fusion-tabs.fusion-tabs-25 .tab-content .tab-pane{border-color:#FFFFFF;}
-- [
-
-#### **EN SAVOIR +
-
-](#tab-5f62a6e26edb6e3d0bd)
-- [
-
-#### **FICHE TECHNIQUE
-
-](#tab-0a2d429c1c5eb6612b8)
-
-- [
-
-#### **EN SAVOIR +
-
-](#tab-5f62a6e26edb6e3d0bd)
+### EN SAVOIR +
 
 Les fenêtres AWS.50.NI allient : **haute** **modularité**, **vaste** **choix** de **largeurs** et **avantages** **économiques**.
 
 Perfection du design, couleurs tendance… elles offrent une **totale** **liberté** **créative**, un **confort** **visuel** et une **clarté** **optimale**.
 
-**Supports**: 
-
-    
-        
-            *
-            
-                
-
+**Supports**:
 ### [Descriptif AWS 50 NI](https://alubat971.com/download/descriptif-aws-50/)
 
-                * 1 fichier·s ** 0.00 KB
-            
-            
-                [Télécharger](#)
-            
-        
-    
-
-- [
-
-#### **FICHE TECHNIQUE
-
-](#tab-0a2d429c1c5eb6612b8)
+### FICHE TECHNIQUE
 
 – Performance AEV : A*4 E*E900 V*B3
 
@@ -65,36 +30,5 @@ Perfection du design, couleurs tendance… elles offrent une **totale** **libert
 – Profilés compatibles avec la porte ADS 50.NI
 
 **Supports:**
-
-/* <!&#091;CDATA&#091; */
-fpm_start( "true" );
-/* &#093;&#093;> */
-
-    
-        
-            *
-            
-                
-
 ### [Fiche Technique AWS 50 NI](https://alubat971.com/download/fiche-technique-aws-50/)
-
-                * 1 fichier·s ** 0.00 KB
-            
-            
-                [Télécharger](#)
-            
-        
-    
-
-    
-        
-            *
-            
-                
-
 ### [Fiche Coupe principe AWS 50 NI](https://alubat971.com/download/fiche-coupe-principe-aws-50/)
-
-                * 1 fichier·s ** 0.00 KB
-            
-            
-                [Télécharger](#)

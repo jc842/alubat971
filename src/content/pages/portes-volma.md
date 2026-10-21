@@ -5,15 +5,9 @@ heroImage: "/images/page-portes-volma.webp"
 lang: "fr"
 ---
 
-*
-
- 
-
 **Concepteur-fabricant du panneau de porte d'entrée ****et spécialiste des vitrages décoratifs**
 
-### 
-
-### **VOLMA, une entreprise familiale dynamique tournée vers**
+### VOLMA, une entreprise familiale dynamique tournée vers
 
 - LE **CHOIX**
 
@@ -29,11 +23,6 @@ Un état d’esprit, notre état d’esprit !
 
 A l’affût des **nouvelles** **tendances**, à l’écoute des évolutions du marché et des attentes clients, nos départements marketing, graphique et technique travaillent ensemble pour concevoir les produits de demain en accord avec les réglementations.
 
-					
-				
-					
-						
-
 ### VOLMA En Chiffres:
 
 - **20 millions de CA**
@@ -48,37 +37,4 @@ A l’affût des **nouvelles** **tendances**, à l’écoute des évolutions du 
 
 ***Découvrez nos produits VOLMA:***
 
-/* <!&#091;CDATA&#091; */
-fpm_start( "true" );
-/* &#093;&#093;> */
-
-- 
-	[
-
-					*
-	
-](https://alubat971.com/produit/portes-et-fenetres/portes/porte-entree/)
-
-	
-		
-
-### 
-	[
-		Porte Entrée VOLMA	](https://alubat971.com/produit/portes-et-fenetres/portes/porte-entree/)
-
-		
-	
-
-	
-		
-		
-
-[
-	Details](https://alubat971.com/produit/portes-et-fenetres/portes/porte-entree/)
-
-	
-	
-
-	 
-
-.fusion-widget-area-2 {padding:0px 0px 0px 0px;}.fusion-widget-area-2 .widget h4 {color:#727989;}.fusion-widget-area-2 .widget .heading h4 {color:#727989;}.fusion-widget-area-2 .widget h4 {font-size:14px;}.fusion-widget-area-2 .widget .heading h4 {font-size:14px;}			.fusion-button.button-2 .fusion-button-text, .fusion-button.button-2 i {color:#fff;}.fusion-button.button-2 .fusion-button-icon-divider{border-color:#fff;}.fusion-button.button-2:hover .fusion-button-text, .fusion-button.button-2:hover i,.fusion-button.button-2:focus .fusion-button-text, .fusion-button.button-2:focus i,.fusion-button.button-2:active .fusion-button-text, .fusion-button.button-2:active{color:#fff;}.fusion-button.button-2:hover .fusion-button-icon-divider, .fusion-button.button-2:hover .fusion-button-icon-divider, .fusion-button.button-2:active .fusion-button-icon-divider{border-color:#fff;}.fusion-button.button-2:hover, .fusion-button.button-2:focus, .fusion-button.button-2:active{border-color:#fff;border-width:0px;}.fusion-button.button-2 {border-color:#fff;border-width:0px;border-radius:0px;}.fusion-button.button-2{background: #2b2e35;}.fusion-button.button-2:hover,.button-2:focus,.fusion-button.button-2:active{background: #2f333a;}[Nous Contacter](#)
+- [**Porte Entrée VOLMA**](/produits/porte-entree/)

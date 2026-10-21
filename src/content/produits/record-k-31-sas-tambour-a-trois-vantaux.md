@@ -29,7 +29,3 @@ Le modèle 3 vantaux assure un contrôle thermique entre l’extérieur et l’i
 Les tambours disposent de nombreuses options de design et de finitions qui répondent à une créativité personnalisée
 
 Une version tout en verre est également disponible qui s’associe à une construction entièrement vitrée et qui sera le reflet d’une transparence parfaite
-
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */

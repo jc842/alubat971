@@ -1,6 +1,6 @@
 ---
 title: "record THERMCORD – Les portes automatiques à isolation thermique"
-description: "record THERMCORD est le nouveau système de portes automatiques coulissantes qui présente des qualités d’isolation thermique incontestables grâce à ses profilés "
+description: "record THERMCORD est le nouveau système de portes automatiques coulissantes qui présente des qualités d’isolation thermique incontestables grâce à ses profilés"
 pubDate: "2017-05-18T13:33:57"
 category: "Portes automatiques à isolation thermique"
 brand: "Record"
@@ -33,7 +33,3 @@ coefficient d’isolation thermique élevé
 amortissement de l’investissement sur une courte période
 
 mécanisme record STA 20 standard éprouvé
-
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */

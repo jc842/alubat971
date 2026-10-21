@@ -10,22 +10,7 @@ lang: "fr"
 draft: false
 ---
 
-.fusion-tabs.fusion-tabs-1 .nav-tabs li a.tab-link{border-top-color:#f5f5f5;background-color:#f5f5f5;}.fusion-tabs.fusion-tabs-1 .nav-tabs{background-color:#ffffff;}.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a.tab-link,.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a.tab-link:hover,.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a.tab-link:focus{border-right-color:#ffffff;}.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a.tab-link,.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a.tab-link:hover,.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a.tab-link:focus{background-color:#ffffff;}.fusion-tabs.fusion-tabs-1 .nav-tabs li a:hover{background-color:#ffffff;border-top-color:#ffffff;}.fusion-tabs.fusion-tabs-1 .tab-pane{background-color:#ffffff;}.fusion-tabs.fusion-tabs-1 .nav,.fusion-tabs.fusion-tabs-1 .nav-tabs,.fusion-tabs.fusion-tabs-1 .tab-content .tab-pane{border-color:#FFFFFF;}
-- [
-
-#### **FICHE TECHNIQUE
-
-](#tab-4fccfabbdbbdee370b9)
-
-- [
-
-#### **FICHE TECHNIQUE
-
-](#tab-4fccfabbdbbdee370b9)
-
-/* <!&#091;CDATA&#091; */
-fpm_start( "true" );
-/* &#093;&#093;> */
+### FICHE TECHNIQUE
 
 - Système autoporté : les ouvrants se replient sur eux-mêmes puis coulissent à droite ou à gauche
 

@@ -9,18 +9,4 @@ lang: "fr"
 draft: false
 ---
 
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */
-
-					
-						
-
 *Retrouvez votre revue Bien Vivre – Mai 2016 – Guadeloupe et ALUBAT Guadeloupe en page 25
-
-*
-
-					
-				
-					
-						[](https://alubat971.com/wp-content/uploads/alubat_bienvivre_052016.jpg)

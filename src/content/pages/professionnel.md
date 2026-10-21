@@ -1,313 +1,42 @@
 ---
-title: "Professionnel"
-description: "Professionnel - ALUBAT Guadeloupe, spécialiste de la menuiserie aluminium."
-heroImage: "/og-image.jpg"
+title: "Menuiseries Aluminium pour Professionnels & Collectivités en Guadeloupe"
+description: "Partenaire de référence des maîtres d'œuvre, promoteurs et entreprises : façades rideaux, menuiseries tertiaires, portes automatiques et ERP par ALUBAT Guadeloupe."
+heroImage: "/images/chantier-campus-sanitaire-social.webp"
 lang: "fr"
 ---
 
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */
+## L'Expertise Industrielle au Service du Bâtiment Tertiaire et Public
 
-					
-						.fusion-portfolio-4 .fusion-portfolio-wrapper .fusion-col-spacing{padding:12px;}Batiment DOTHEMAR – ALUBAT_PORTFOLIO_VOLETS ROULANTS + BRISE SOLEIL AILE D AVION ALB – Michel Corbin[admin001](https://alubat971.com/author/admin001/)2020-06-30T06:35:32-04:00
+Avec un outil de production de **3 000 m² d'ateliers à Jarry** et un bureau d'études techniques intégré, **ALUBAT Guadeloupe** est le partenaire industriel de référence des architectes, maîtres d'ouvrage publics et privés, promoteurs immobiliers et entreprises générales aux Antilles.
 
-	
-	
-		
-					
-	
+Nous concevons, fabriquons et installons des ouvrages complexes en aluminium répondant aux exigences techniques, thermiques, acoustiques et sécuritaires les plus strictes.
 
-		
-	
+---
 
-														[Batiment DOTHEMAR – ALUBAT_PORTFOLIO_VOLETS ROULANTS + BRISE SOLEIL AILE D AVION ALB – Michel Corbin](https://alubat971.com/realisations/batiment-dothemar-alubat_portfolio_volets-roulants-brise-soleil-aile-d-avion-alb-michel-corbin/?portfolioCats=43)
-			
-								
-				
-												
+### Nos Domaines d'Intervention Tertiaire & Marchés Publics
 
-#### 
-					[
-						Batiment DOTHEMAR – ALUBAT_PORTFOLIO_VOLETS ROULANTS + BRISE SOLEIL AILE D AVION ALB – Michel Corbin					](https://alubat971.com/realisations/batiment-dothemar-alubat_portfolio_volets-roulants-brise-soleil-aile-d-avion-alb-michel-corbin/?portfolioCats=43)
-				
+- **Façades et Murs-Rideaux** : Systèmes Schüco FW 50+ pour immeubles de bureaux, sièges sociaux et centres commerciaux.
+- **Portes Automatiques & Contrôle d'Accès** : Systèmes Record pour commerces, banques, cliniques et établissements recevant du public (ERP).
+- **Menuiseries Coupe-Feu & Pare-Flammes** : Portes et châssis certifiés Schüco ADS 80 FR 30/60 conformes à la réglementation incendie.
+- **Menuiseries Antieffraction & Pare-Balles** : Systèmes blindés Schüco AWS / ADS 90 BR pour sites sensibles et établissements bancaires.
+- **Brise-Soleil et Protection Solaire Industrielle** : Lames aluminium fixes ou orientables (ailes d'avion ALB) pour optimiser l'efficacité énergétique des bâtiments tertiaires.
+- **Garde-Corps ERP & Barreaudages** : Ouvrages certifiés conformes aux normes de charge et de sécurité des ERP.
 
-			
-								
-		
-				[](https://alubat971.com/realisations/batiment-dothemar-alubat_portfolio_volets-roulants-brise-soleil-aile-d-avion-alb-michel-corbin/?portfolioCats=43)
-	
+---
 
-	
+### Références Chantiers Majeurs en Guadeloupe
 
-Porte ventilée, Brise Soleil, Garde Corps, Marquise autoportante, Mur rideau FW 50 – Bureaux – Dothemare– GB Architecture[admin001](https://alubat971.com/author/admin001/)2020-06-30T06:34:36-04:00
+- **Santé & Social** : Nouveau Centre Hospitalier Universitaire (CHU Guadeloupe), Pôle Social du Gosier, Campus Sanitaire & Social.
+- **Bâtiments Publics & Institutionnels** : Siège Social de la CAF Guadeloupe, Camp Jacob, École Régionale de la 2e Chance.
+- **Commerces & Bureaux** : Centre Commercial Colin, Antillopole Abymes, Immeuble de Bureaux Dothemare (GB Architecture).
+- **Hôtellerie & Loisirs** : La Créole Beach Hôtel & Spa, Golf International de Saint-François, Aquarium de la Guadeloupe.
 
-	
-	
-		
-					
-	
+---
 
-		
-	
+### Certifications & Engagements Professionnels
 
-														[Porte ventilée, Brise Soleil, Garde Corps, Marquise autoportante, Mur rideau FW 50 – Bureaux – Dothemare– GB Architecture](https://alubat971.com/realisations/porte-ventilee-brise-soleil-garde-corps-marquise-autoportante-mur-rideau-fw-50-bureaux-dothemare-gb-architecture/?portfolioCats=43)
-			
-								
-				
-												
+- **Partenaire Référence Schüco** : Accès direct aux profilés et avis techniques CSTB de pointe.
+- **Certifications Qualibat & Labels Qualimarine / Qualicoat** : Garantie de process conformes aux DTU et normes caribéennes.
+- **Assurances Décennale & Responsabilité Civile Professionnelle** : Couverture complète de l'ensemble de vos chantiers.
 
-#### 
-					[
-						Porte ventilée, Brise Soleil, Garde Corps, Marquise autoportante, Mur rideau FW 50 – Bureaux – Dothemare– GB Architecture					](https://alubat971.com/realisations/porte-ventilee-brise-soleil-garde-corps-marquise-autoportante-mur-rideau-fw-50-bureaux-dothemare-gb-architecture/?portfolioCats=43)
-				
-
-			
-								
-		
-				[](https://alubat971.com/realisations/porte-ventilee-brise-soleil-garde-corps-marquise-autoportante-mur-rideau-fw-50-bureaux-dothemare-gb-architecture/?portfolioCats=43)
-	
-
-	
-
-Brise Soleil Tons Bois &#038; Garde Corps – Bureaux Jarry – Couleurs d'architecture[admin001](https://alubat971.com/author/admin001/)2020-06-23T09:38:29-04:00
-
-	
-	
-		
-					
-	
-
-		
-	
-
-														[Brise Soleil Tons Bois &#038; Garde Corps – Bureaux Jarry – Couleurs d'architecture](https://alubat971.com/realisations/brise-soleil-tons-bois-garde-corps-bureaux-jarry-couleurs-darchitecture/?portfolioCats=43)
-			
-								
-				
-												
-
-#### 
-					[
-						Brise Soleil Tons Bois &#038; Garde Corps – Bureaux Jarry – Couleurs d'architecture					](https://alubat971.com/realisations/brise-soleil-tons-bois-garde-corps-bureaux-jarry-couleurs-darchitecture/?portfolioCats=43)
-				
-
-			
-								
-		
-				[](https://alubat971.com/realisations/brise-soleil-tons-bois-garde-corps-bureaux-jarry-couleurs-darchitecture/?portfolioCats=43)
-	
-
-	
-
-Centre de Culture Indienne[admin001](https://alubat971.com/author/admin001/)2017-05-26T13:20:32-04:00
-
-	
-	
-		
-					
-	
-
-		
-	
-
-														[Centre de Culture Indienne](https://alubat971.com/realisations/centre-de-culture-indienne/?portfolioCats=43)
-			
-								
-				
-												
-
-#### 
-					[
-						Centre de Culture Indienne					](https://alubat971.com/realisations/centre-de-culture-indienne/?portfolioCats=43)
-				
-
-			
-								
-		
-				[](https://alubat971.com/realisations/centre-de-culture-indienne/?portfolioCats=43)
-	
-
-	
-
-Pergola Baie Mahault[admin001](https://alubat971.com/author/admin001/)2017-05-26T13:20:32-04:00
-
-	
-	
-		
-					
-	
-
-		
-	
-
-														[Pergola Baie Mahault](https://alubat971.com/realisations/pergola-baie-mahault/?portfolioCats=43)
-			
-								
-				
-												
-
-#### 
-					[
-						Pergola Baie Mahault					](https://alubat971.com/realisations/pergola-baie-mahault/?portfolioCats=43)
-				
-
-			
-								
-		
-				[](https://alubat971.com/realisations/pergola-baie-mahault/?portfolioCats=43)
-	
-
-	
-
-Hotel Creole Beach[admin001](https://alubat971.com/author/admin001/)2017-05-26T13:20:32-04:00
-
-	
-	
-		
-					
-	
-
-		
-	
-
-														[Hotel Creole Beach](https://alubat971.com/realisations/hotel-creole-beach/?portfolioCats=43)
-			
-								
-				
-												
-
-#### 
-					[
-						Hotel Creole Beach					](https://alubat971.com/realisations/hotel-creole-beach/?portfolioCats=43)
-				
-
-			
-								
-		
-				[](https://alubat971.com/realisations/hotel-creole-beach/?portfolioCats=43)
-	
-
-	
-
-Les Ortholans[admin001](https://alubat971.com/author/admin001/)2017-05-26T13:20:32-04:00
-
-	
-	
-		
-					
-	
-
-		
-	
-
-														[Les Ortholans](https://alubat971.com/realisations/les-ortholans/?portfolioCats=43)
-			
-								
-				
-												
-
-#### 
-					[
-						Les Ortholans					](https://alubat971.com/realisations/les-ortholans/?portfolioCats=43)
-				
-
-			
-								
-		
-				[](https://alubat971.com/realisations/les-ortholans/?portfolioCats=43)
-	
-
-	
-
-Vieux Habitants[admin001](https://alubat971.com/author/admin001/)2017-05-26T13:20:32-04:00
-
-	
-	
-		
-					
-	
-
-		
-	
-
-														[Vieux Habitants](https://alubat971.com/realisations/vieux-habitants/?portfolioCats=43)
-			
-								
-				
-												
-
-#### 
-					[
-						Vieux Habitants					](https://alubat971.com/realisations/vieux-habitants/?portfolioCats=43)
-				
-
-			
-								
-		
-				[](https://alubat971.com/realisations/vieux-habitants/?portfolioCats=43)
-	
-
-	
-
-Pole social Gosier[admin001](https://alubat971.com/author/admin001/)2017-05-26T13:20:32-04:00
-
-	
-	
-		
-					
-	
-
-		
-	
-
-														[Pole social Gosier](https://alubat971.com/realisations/pole-social-gosier/?portfolioCats=43)
-			
-								
-				
-												
-
-#### 
-					[
-						Pole social Gosier					](https://alubat971.com/realisations/pole-social-gosier/?portfolioCats=43)
-				
-
-			
-								
-		
-				[](https://alubat971.com/realisations/pole-social-gosier/?portfolioCats=43)
-	
-
-	
-
-Centre Commercial Colin[admin001](https://alubat971.com/author/admin001/)2017-05-26T13:20:32-04:00
-
-	
-	
-		
-					
-	
-
-		
-	
-
-														[Centre Commercial Colin](https://alubat971.com/realisations/centre-commercial-colin/?portfolioCats=43)
-			
-								
-				
-												
-
-#### 
-					[
-						Centre Commercial Colin					](https://alubat971.com/realisations/centre-commercial-colin/?portfolioCats=43)
-				
-
-			
-								
-		
-				[](https://alubat971.com/realisations/centre-commercial-colin/?portfolioCats=43)
-	
-
-	
-
-1[2](https://alubat971.com/wp-json/wp/v2/pages/page/2/?per_page=100&#038;_embed)[Next](https://alubat971.com/wp-json/wp/v2/pages/page/2/?per_page=100&#038;_embed)
+[Découvrez l'ensemble de nos chantiers de référence](/realisations/) ou [sollicitez notre bureau d'études pour vos appels d'offres](/contact/).

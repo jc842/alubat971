@@ -12,9 +12,9 @@ draft: false
 
 Elle offre une large gamme de solutions afin de s'adapter au mieux à votre environnement :
 
-Un grand nombre de solutions pour l'ouverture : radars, cellules, boucles magnétiques, boutons poussoirs, tirettes, télécommandes,&#8230;
+Un grand nombre de solutions pour l'ouverture : radars, cellules, boucles magnétiques, boutons poussoirs, tirettes, télécommandes,…
 
-Nombreuses options : bandes de visibilté, impression de votre logo, détection infra rouge,&#8230;
+Nombreuses options : bandes de visibilté, impression de votre logo, détection infra rouge,…
 
 Caractéristiques techniques :
 
@@ -27,7 +27,3 @@ Faible encombrement
 Structure modulaire esthétique
 
 Elle peut mesurer jusqu'à 3m x 3m.
-
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */

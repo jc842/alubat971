@@ -29,7 +29,3 @@ Extrême résistance aux intempéries
 Au premier rang en matière de design et d'esthétique
 
 Haute sécurité-système
-
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */

@@ -1,142 +1,33 @@
 ---
-title: "Particulier"
-description: "Particulier - ALUBAT Guadeloupe, spécialiste de la menuiserie aluminium."
-heroImage: "/og-image.jpg"
+title: "Menuiseries Aluminium pour Particuliers en Guadeloupe"
+description: "Solutions sur mesure pour villas et maisons individuelles en Guadeloupe : baies coulissantes, volets roulants, pergolas bioclimatiques et fenêtres isolantes par ALUBAT."
+heroImage: "/images/chantier-villa-marina.webp"
 lang: "fr"
 ---
 
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */
+## Votre Projet d'Habitat avec ALUBAT Guadeloupe
 
-					
-						.fusion-widget-area-6 .widget h4 {color:#727989;}.fusion-widget-area-6 .widget .heading h4 {color:#727989;}.fusion-widget-area-6 .widget h4 {font-size:14px;}.fusion-widget-area-6 .widget .heading h4 {font-size:14px;}			.fusion-button.button-8 .fusion-button-text, .fusion-button.button-8 i {color:#fff;}.fusion-button.button-8 .fusion-button-icon-divider{border-color:#fff;}.fusion-button.button-8:hover .fusion-button-text, .fusion-button.button-8:hover i,.fusion-button.button-8:focus .fusion-button-text, .fusion-button.button-8:focus i,.fusion-button.button-8:active .fusion-button-text, .fusion-button.button-8:active{color:#fff;}.fusion-button.button-8:hover .fusion-button-icon-divider, .fusion-button.button-8:hover .fusion-button-icon-divider, .fusion-button.button-8:active .fusion-button-icon-divider{border-color:#fff;}.fusion-button.button-8:hover, .fusion-button.button-8:focus, .fusion-button.button-8:active{border-color:#fff;border-width:0px;}.fusion-button.button-8 {border-color:#fff;border-width:0px;border-radius:0px;}.fusion-button.button-8{background: #2b2e35;}.fusion-button.button-8:hover,.button-8:focus,.fusion-button.button-8:active{background: #2f333a;}[Nous Contacter](#)
-		
+Depuis plus de 20 ans, **ALUBAT Guadeloupe** accompagne les particuliers dans la construction neuve et la rénovation de villas, maisons traditionnelles et résidences de standing à travers toute la Guadeloupe.
 
-					
-				
-					
-						.fusion-portfolio-3 .fusion-portfolio-wrapper .fusion-col-spacing{padding:6px;}Villa Marina[admin001](https://alubat971.com/author/admin001/)2017-05-26T13:20:32-04:00
+Nos menuiseries aluminium sont fabriquées sur mesure dans nos ateliers de 3 000 m² à Baie-Mahault (Jarry), selon les normes anticycloniques les plus rigoureuses et avec les meilleurs labels de traitement de surface (**Qualimarine** et **Qualicoat**).
 
-	
-	
-		
-					
-	
+---
 
-		
-	
+### Nos Solutions pour Votre Villa
 
-														[Villa Marina](https://alubat971.com/realisations/villa-marina/?portfolioCats=42)
-			
-								
-				
-												
+- **Baies Vitrées et Coulissants Panoramiques** : Systèmes Schüco grande largeur (ASS 50, ASS 28) pour ouvrir vos pièces à vivre sur la terrasse et le jardin tout en garantissant une étanchéité parfaite.
+- **Volets Roulants & Battants Anticycloniques** : Motorisés ou manuels, lames aluminium haute résistance pour sécuriser votre maison en toute saison.
+- **Pergolas Bioclimatiques Biossun** : Lames orientables motorisées pour profiter pleinement de votre extérieur à l'abri du soleil tropical et des averses.
+- **Portes d'Entrée & Portails Aluminium** : Modèles design Volma et Horizal alliant esthétique caribéenne, robustesse et sécurité renforcée.
+- **Garde-Corps et Clôtures de Sécurité** : Gammes Horizal barreaudées ou vitrées pour terrasses, mezzanines et piscines conformes aux normes NF.
 
-#### 
-					[
-						Villa Marina					](https://alubat971.com/realisations/villa-marina/?portfolioCats=42)
-				
+---
 
-			
-								
-		
-				[](https://alubat971.com/realisations/villa-marina/?portfolioCats=42)
-	
+### Pourquoi Choisir ALUBAT ?
 
-	
+1. **Fabrication 100% Locale en Guadeloupe** : Réactivité, délais maîtrisés et adaptabilité totale à votre chantier.
+2. **Conception Adaptée au Climat Tropical** : Traitements marins anticorrosion et résistance éprouvée aux cyclones et embruns salins.
+3. **Bureau d'Études & Devis Gratuit** : Relevé de cotes in situ par nos techniciens-métreurs et accompagnement personnalisé de la conception à la pose.
+4. **Garantie Décennale et Service Après-Vente** : Suivi rigoureux de vos installations par nos équipes de poseurs qualifiés.
 
-Villa[admin001](https://alubat971.com/author/admin001/)2017-05-26T13:20:32-04:00
-
-	
-	
-		
-					
-	
-
-		
-	
-
-														[Villa](https://alubat971.com/realisations/villa-pergola/?portfolioCats=42)
-			
-								
-				
-												
-
-#### 
-					[
-						Villa					](https://alubat971.com/realisations/villa-pergola/?portfolioCats=42)
-				
-
-			
-								
-		
-				[](https://alubat971.com/realisations/villa-pergola/?portfolioCats=42)
-	
-
-	
-
-Villa Gosier[admin001](https://alubat971.com/author/admin001/)2017-05-26T13:20:32-04:00
-
-	
-	
-		
-					
-	
-
-		
-	
-
-														[Villa Gosier](https://alubat971.com/realisations/villa-gosier/?portfolioCats=42)
-			
-								
-				
-												
-
-#### 
-					[
-						Villa Gosier					](https://alubat971.com/realisations/villa-gosier/?portfolioCats=42)
-				
-
-			
-								
-		
-				[](https://alubat971.com/realisations/villa-gosier/?portfolioCats=42)
-	
-
-	
-
-Villa[admin001](https://alubat971.com/author/admin001/)2017-05-26T13:20:32-04:00
-
-	
-	
-		
-					
-	
-
-		
-	
-
-														[Villa](https://alubat971.com/realisations/villa/?portfolioCats=42)
-			
-								
-				
-												
-
-#### 
-					[
-						Villa					](https://alubat971.com/realisations/villa/?portfolioCats=42)
-				
-
-			
-								
-		
-				[](https://alubat971.com/realisations/villa/?portfolioCats=42)
-	
-
-	
-
-					
-				
-					
-						.fusion-widget-area-7 .widget h4 {color:#727989;}.fusion-widget-area-7 .widget .heading h4 {color:#727989;}.fusion-widget-area-7 .widget h4 {font-size:14px;}.fusion-widget-area-7 .widget .heading h4 {font-size:14px;}
+[Consultez nos réalisations de villas d'exception](/realisations/) ou [contactez nos conseillers pour une étude personnalisée](/contact/).

@@ -21,7 +21,3 @@ Un portail alu ne rouille pas
 L'entretien du thermolaquage est minimum
 
 La sécurité de nos portails aluminium est conforme à la norm
-
-/* <![CDATA[ */
-fpm_start( "true" );
-/* ]]> */

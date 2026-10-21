@@ -17,10 +17,6 @@ De cette façon, le flux de personnes peut être limité de manière fiable afin
 
 Le signal à l'entrée est un système de feux de circulation avec des bandes LED aux couleurs changeantes qui sont clairement visibles par tout le monde.
 
-Cette solution autonome soulagera toutes ces entrées de la surveillance des caissiers et des autres employés de l'immeuble, afin qu'ils puissent faire leur travail. 
+Cette solution autonome soulagera toutes ces entrées de la surveillance des caissiers et des autres employés de l'immeuble, afin qu'ils puissent faire leur travail.
 
 Contactez l'équipe commercial d'ALUBAT Guadeloupe dès maintenant: ☎ 0590 26 64 40 ? info@alubat971.com
-
-/* <!&#091;CDATA&#091; */
-fpm_start( "true" );
-/* &#093;&#093;> */
